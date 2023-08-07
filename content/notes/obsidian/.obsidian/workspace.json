@@ -1,0 +1,231 @@
+{
+  "main": {
+    "id": "0108c177ae4218b7",
+    "type": "split",
+    "children": [
+      {
+        "id": "76b7fdf55f0e0555",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e3475337ec55f71b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ITRI/2023-07-24.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "4f5831443fb31363",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ITRI/2023-08-01.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "28ee0a94aca167b2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Plans/Daily/2023-08-06.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "632d74556f8add03",
+    "type": "split",
+    "children": [
+      {
+        "id": "93b5cc9ef0a1279d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "084eb01a649fc785",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "25d9238626ec926b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "a706247491d0d2f3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "d497dc247e5ebe63",
+    "type": "split",
+    "children": [
+      {
+        "id": "7ec8b3a4c2ebd232",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ac73b7ad84d5437f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "c34d81d2d49278f7",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "0e089bc41b10ebc4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Plans/Daily/2023-08-06.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f6db185a5066430f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Plans/Daily/2023-08-06.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f41c97031afdce77",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Plans/Daily/2023-08-06.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
+    }
+  },
+  "active": "28ee0a94aca167b2",
+  "lastOpenFiles": [
+    "Itron/TDK/Slam.md",
+    "Itron/TDK/Navigation.md",
+    "Plans/Daily/2023-08-06.md",
+    "ITRI/2023-07-12.md",
+    "ITRI/2023-07-24.md",
+    "ITRI/2023-08-03.md",
+    "ITRI/2023-08-04.md",
+    "Plans/Daily/2023-08-04.md",
+    "ITRI/2023-08-01.md",
+    "ITRI/2023-07-28.md",
+    "Plans/Daily/2023-08-02.md",
+    "ITRI/2023-07-27.md",
+    "Plans/Daily/2023-08-01.md",
+    "Plans/Daily/2023-07-28.md",
+    "Plans/Daily/2023-07-27.md",
+    "ITRI/2023-07-25.md",
+    "Plans/Daily/2023-07-25.md",
+    "Plans/Daily/2023-07-24.md",
+    "ITRI/2023-07-14.md",
+    "ITRI/2023-07-18.md",
+    "ITRI/2023-07-11.md",
+    "ITRI/2023-07-10.md",
+    "ITRI/2023-07-05.md",
+    "ITRI/2023-07-04.md",
+    "ITRI/2023-07-03.md",
+    "ITRI/2023-07-17.md",
+    "Untitled",
+    "Itron/TDK/Old",
+    "Plans/Junior",
+    "ITRI",
+    "Plans/Daily",
+    "Plans/Daily Notes",
+    "Source/pictures/Result_of_rostopic_list.png",
+    "Source/pictures/In_rviz.png",
+    "Source/pictures/rviz_select_by_topic.png",
+    "Source/pictures/In_gazebo.png",
+    "Source/pictures/Result_of_rostopic_list.png",
+    "Source/pictures/In_rviz.png",
+    "Source/pictures/rviz_select_by_topic.png",
+    "Source/pictures/In_gazebo.png",
+    "Untitled.canvas",
+    "Template",
+    "Source/pictures/afterdrilling.jpg",
+    "Source/pictures/deflection.jpg",
+    "Itron/TDK",
+    "Program learning/Microprocessor"
+  ]
+}

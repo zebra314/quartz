@@ -3,30 +3,23 @@ title: Quartz 3.3
 enableToc: false
 ---
 
-Host your second brain and [digital garden](https://jzhao.xyz/posts/networked-thought) for free. Quartz features
+# Hi!  I'm Alfonso Lin 🦴
+I'm a Mechanical Engineering student at Chaio Tung University in Taiwan. I'm interested in robotics and programming, being able to build a robot from zero to one is the best thing in my life. Hoping to learn more about these fields and make some friends here in the future. If you have any questions or suggestions, please feel free to contact me. 
 
-1. Extremely fast natural-language [[notes/search]]
-2. Customizable and hackable design based on [Hugo](https://gohugo.io/)
-3. Automatically generated backlinks, link previews, and local graph
-4. Built-in [[notes/CJK + Latex Support (测试) | CJK + Latex Support]] and [[notes/callouts | Admonition-style callouts]]
-5. Support for both Markdown Links and Wikilinks
-
-Check out some of the [amazing gardens that community members](notes/showcase.md) have published with Quartz or read about [why I made Quartz](notes/philosophy.md) to begin with.
-
-## Get Started
-> 📚 Step 1: [Setup your own digital garden using Quartz](notes/setup.md)
-
-Returning user? Figure out how to [[notes/updating|update]] your existing Quartz garden.
-
-If you prefer browsing the contents of this site through a list instead of a graph, you see a list of all [setup-related notes](/tags/setup).
-
-### Troubleshooting
-- 🚧 [Troubleshooting and FAQ](notes/troubleshooting.md)
-- 🐛 [Submit an Issue](https://github.com/jackyzha0/quartz/issues)
-- 👀 [Discord Community](https://discord.gg/cRFFHYye7t)
-
-### Notes
-- [Scout](notes/obsidian/Intern/ITRI/Topic/Scout.md)
-- [Clonezilla](notes/obsidian/Intern/ITRI/Topic/Clonezilla.md)
+> [!note]In Progress
+>
+> - I'm interning at Mechanical and Mechatronics Systems Lab of ITRI for second half of 2023.
+> - I'm developing an [autonomous navigation robot](https://github.com/zebra314/pollo_asado) for TDK competition with Itron team members.
+> - I'm developing the software layer of a [quadruped robot dog](https://zebra314.github.io/project/robot_dog) based on my senior's hardware development as my independent study.
+> - I'm preparing for the [TOEFL](tags/toefl) test in order to apply for foreign exchange program of next year.
 
 
+> [!success] Past
+> 
+> ...
+
+> [!abstract] Fun Facts
+>
+> - I enjoy practicing archery very much, it helps me to stay focus and relax. What's more, I make a lot of friends in the archery school team.
+> - I'm a ametuer photographer, taking [photos](https://zebra314.github.io/photo/) makes me feel present and connected.
+> - I hate clams, however I found some clam soup in stir-fry restaurant tastes good.

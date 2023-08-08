@@ -9,7 +9,7 @@ enableCallouts: true
 enableSPA: true
 enableFooter: true
 enableContextualBacklinks: true
-enableRecentNotes: true
+enableRecentNotes: false
 enableGitHubEdit: false
 enableMermaid: true
 GitHubLink: https://github.com/zebra314/quartz/tree/hugo/content

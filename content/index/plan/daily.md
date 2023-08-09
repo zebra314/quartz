@@ -1,0 +1,4 @@
+---
+title: daily
+enableToc: false
+---

@@ -2,7 +2,7 @@
 title: Slam
 enableToc: true
 ---
-[[index/learning/programming|programming]]
+[[catalog/learning/programming|programming]]
 
 # Mapping
 ## gmapping

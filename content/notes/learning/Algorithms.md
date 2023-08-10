@@ -2,7 +2,7 @@
 title: Algorithms
 enableToc: true
 ---
-[[index/learning/programming|programming]]
+[[catalog/learning/programming|programming]]
 
 # 十進位轉二進位
 ```c

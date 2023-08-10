@@ -2,7 +2,7 @@
 title: Sensor topic Not found
 enableToc: true
 ---
-[[index/learning/programming|programming]]
+[[catalog/learning/programming|programming]]
 
 ## Bug report   
 ### Description  
@@ -20,10 +20,10 @@ For example, the description down below will make the sensor to publish the data
 The lidar is successfully built and activated in the gazebo world. However, there is no correspond topic when I use ```rostopic list```, and also I cannot view the data by selecting the topic in Rviz.  
 
 ### Screen Shots  
-![[notes/images/old/In_gazebo.png]]  
-![[notes/images/old/In_rviz.png]]  
-![[notes/images/old/rviz_select_by_topic.png]]  
-![[notes/images/old/Result_of_rostopic_list.png]]  
+![[images/old/In_gazebo.png]]  
+![[images/old/In_rviz.png]]  
+![[images/old/rviz_select_by_topic.png]]  
+![[images/old/Result_of_rostopic_list.png]]  
 
 ### Similar issue
 - [Discourse - LaserScanner in Gazebo does not publish data while topic is set](https://answers.ros.org/question/273492/laserscanner-in-gazebo-does-not-publish-data-while-topic-is-set/)  

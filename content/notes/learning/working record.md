@@ -2,7 +2,7 @@
 title: Working Record
 enableToc: true
 ---
-[[index/learning/intern|intern]]
+[[catalog/learning/intern|intern]]
 
 ## July
 - 0703

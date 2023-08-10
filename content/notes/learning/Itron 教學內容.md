@@ -2,7 +2,7 @@
 title: Itron 教學內容
 enableToc: true
 ---
-[[index/learning/programming|programming]]
+[[catalog/learning/programming|programming]]
 
 # 語法
 

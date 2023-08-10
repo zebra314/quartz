@@ -2,7 +2,7 @@
 title: Webb telesccope wows with first images
 enableToc: true
 ---
-[[index/learning/language|language]]
+[[catalog/learning/language|language]]
 
 - showcase
     > 展現

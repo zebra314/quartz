@@ -1,0 +1,1 @@
+[[catalog/plan/daily|daily]]

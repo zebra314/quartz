@@ -2,7 +2,7 @@
 title: Git
 enableToc: true
 ---
-[[index/learning/command|command]]
+[[catalog/learning/command|command]]
 
 ## Make some changes
 1. git clone 網址

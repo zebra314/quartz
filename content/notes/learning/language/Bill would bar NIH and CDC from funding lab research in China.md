@@ -2,7 +2,7 @@
 title: Bill would bar NIH and CDC from funding lab research in China
 enableToc: true
 ---
-[[index/learning/language|language]]
+[[catalog/learning/language|language]]
 
 - bar
     > 禁止

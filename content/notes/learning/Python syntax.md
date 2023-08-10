@@ -2,7 +2,7 @@
 title: Python syntax
 enableToc: true
 ---
-[[index/learning/programming|programming]]
+[[catalog/learning/programming|programming]]
 
 # Class variables and Instance variables
 

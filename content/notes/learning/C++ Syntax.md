@@ -2,7 +2,7 @@
 title: C++ Syntax
 enableToc: true
 ---
-[[index/learning/programming|programming]]
+[[catalog/learning/programming|programming]]
 # Input
 ## 優化
 

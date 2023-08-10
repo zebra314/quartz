@@ -2,7 +2,7 @@
 title: Navigate
 enableToc: true
 ---
-[[index/learning/programming|programming]]
+[[catalog/learning/programming|programming]]
 
 ## TODO
 1. 如何使用光達

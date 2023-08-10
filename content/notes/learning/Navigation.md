@@ -2,7 +2,7 @@
 title: Navigation
 enableToc: true
 ---
-[[index/learning/programming|programming]]
+[[catalog/learning/programming|programming]]
 
 # Reference
 - [ROS.org - navigation](http://wiki.ros.org/navigation)

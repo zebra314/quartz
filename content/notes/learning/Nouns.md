@@ -2,7 +2,7 @@
 title: Nouns
 enableToc: true
 ---
-[[index/learning/programming|programming]]
+[[catalog/learning/programming|programming]]
 
 # 硬體 
 1. APM 

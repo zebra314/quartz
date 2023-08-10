@@ -2,7 +2,7 @@
 title: GPE info
 enableToc: true
 ---
-[[index/learning/programming|programming]]
+[[catalog/learning/programming|programming]]
 
 # Two star
 - [x] [Power Strings](https://zerojudge.tw/ShowProblem?problemid=a223)

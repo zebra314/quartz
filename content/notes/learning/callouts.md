@@ -2,7 +2,7 @@
 title: Callouts
 enableToc: true
 ---
-[[index/learning/programming|programming]]
+[[catalog/learning/programming|programming]]
 
 ## Callout support
 

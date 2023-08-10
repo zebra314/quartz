@@ -1,1 +1,0 @@
-[[index/plan/daily|daily]]

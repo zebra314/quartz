@@ -2,7 +2,7 @@
 title: AFV
 enableToc: true
 ---
-[[index/learning/intern|intern]] & [[index/learning/programming|programming]]
+[[catalog/learning/intern|intern]] & [[catalog/learning/programming|programming]]
 
 ## Setup
 ### Install [ceres solver](http://ceres-solver.org/installation.html#linux)

@@ -2,7 +2,7 @@
 title: Blender
 enableToc: true
 ---
-[[index/learning/command|command]]
+[[catalog/learning/command|command]]
 # Object
 - G for movnig
 - R for rotating

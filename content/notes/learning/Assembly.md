@@ -2,7 +2,7 @@
 title: Assembly
 enableToc: true
 ---
-[[index/learning/programming|programming]]
+[[catalog/learning/programming|programming]]
 # 參考資料
 [1](http://godleon.blogspot.com/2008/01/machine-language-cpu-machine-language.html)  
 [2](https://blog.csdn.net/horizontalview/article/details/50773740)  

@@ -1,7 +1,0 @@
-[[index/learning/academic|academic]]  
-[[index/learning/command|command]]   
-[[index/learning/intern|intern]]  
-[[index/learning/language|language]]  
-[[index/learning/programming|programming]]  
-[[index/learning/language|language]]  
-[[index/learning/toefl|toefl]]  

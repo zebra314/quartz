@@ -2,7 +2,7 @@
 title: Docker
 enableToc: true
 ---
-[[index/learning/command|command]]
+[[catalog/learning/command|command]]
 
 ## commands
 - Run portainer(Docker management tool)   

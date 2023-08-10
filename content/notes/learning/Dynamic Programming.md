@@ -2,7 +2,7 @@
 title: Dynamic Programming
 enableToc: true
 ---
-[[index/learning/programming|programming]]
+[[catalog/learning/programming|programming]]
 ## Top-down 
 - easier to write
 - memoization , usually store in hash map

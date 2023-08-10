@@ -1,5 +1,4 @@
-
-[[index/plan/daily|daily]]
+[[catalog/plan/daily|daily]]
 # Overdue
 ```tasks
 path includes plans/daily

@@ -1,0 +1,7 @@
+[[catalog/learning/academic|academic]]  
+[[catalog/learning/command|command]]   
+[[catalog/learning/intern|intern]]  
+[[catalog/learning/language|language]]  
+[[catalog/learning/programming|programming]]  
+[[catalog/learning/language|language]]  
+[[catalog/learning/toefl|toefl]]  

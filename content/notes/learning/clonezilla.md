@@ -2,7 +2,7 @@
 title: Clonezilla
 enableToc: true
 ---
-[[index/learning/intern]]
+[[catalog/learning/intern]]
 ## Reference
 - [Official website - Download Clonezilla iso](https://clonezilla.nchc.org.tw/clonezilla-live/download/download.php?branch=alternative)
 - [Forum - 再生龍Clonezilla製作還原檔及還原光碟](https://www.mobile01.com/topicdetail.php?f=300&t=1198072)
@@ -13,7 +13,7 @@ enableToc: true
 ## Usage
 - To clone a hard disk partition from a dual-boot system
 
-### Requirements
+## Requirements
 - A USB flash drive
   > It will be used to boot Clonezilla.
 - A hard disk drive
@@ -24,47 +24,74 @@ enableToc: true
   >  
   > For example, if you want to copy a 512GB partition with 100GB used space, the hard disk drive should have at least 512GB space. If the hard disk drive has only 256GB space, although it is enough to store the used space, the copy process will still fail.
 
-### Steps
+## Steps
 1.Download the Clonezilla iso file from the [official website](https://clonezilla.nchc.org.tw/clonezilla-live/download/download.php?branch=alternative).
 
 2.Burn the iso file to the USB flash drive using [Rufus](https://rufus.ie/) or [Raspberry imager](https://www.raspberrypi.com/software/).
 
 3.Divide the hard disk drive into two partitions using [GParted](https://gparted.org/download.php) or [Gnome-disk-utility](https://wiki.gnome.org/Apps/Disks).
-  > ![divided hard disk drive](notes/images/clonezilla/0-divide_disk.png)
+  > ![divided hard disk drive](images/clonezilla/0-divide_disk.png)
   > - The bigger partition will be used to store the copy of the target partition.
   > - The smaller partition (0.5-1GB is enough) will be used to store the copy of EFI system.
 
 4.Copy the target partition
   - Boot the computer from the USB flash drive.
   - Choose Clonezilla live (Default settings, VGA 800x600).
-  ![1](notes/images/clonezilla/1.jpg)
+  ![1](images/clonezilla/1.jpg)
   - Choose language
-  ![2](notes/images/clonezilla/2-language.jpg)
+  ![2](images/clonezilla/2-language.jpg)
   - Keep default keyboard layout
-  ![3](notes/images/clonezilla/3-keyboard.jpg)
+  ![3](images/clonezilla/3-keyboard.jpg)
   - Start Clonezilla
-  ![4](notes/images/clonezilla/4-start.jpg)
+  ![4](images/clonezilla/4-start.jpg)
   - Choose device-device work directly from a disk or partition to a disk or partition
-  ![5](notes/images/clonezilla/5-device-device.jpg)
+  ![5](images/clonezilla/5-device-device.jpg)
   - Choose Beginner mode
-  ![6](notes/images/clonezilla/6-beginner.jpg)
-  - Choose partition to local partition
-  ![7](notes/images/clonezilla/7-local-partition.jpg)
-  - Choose the target partition
-  ![8](notes/images/clonezilla/8-target-partition.jpg)
+  ![6](images/clonezilla/6-beginner.jpg)
+  - Choose part_to_local_part
+  ![7](images/clonezilla/7-local-partition.jpg)
+  - Choose the source partition
+  > In this case, `/dev/sda5` store the Ubuntu partition.
+  ![8](images/clonezilla/8-source-partition.jpg)
   - Choose the destination partition
-  ![9](notes/images/clonezilla/9-hard-disk.jpg)
-  - Skip checking the source partition
-  ![10](notes/images/clonezilla/10-skip.jpg)
+  > In this case, `/dev/sdb2` store the copy of the Ubuntu partition.
+  ![9](images/clonezilla/9-destination.jpg)
+  - Choose skip checking the source partition
+  ![10](images/clonezilla/10-skip.jpg)
   - Choose reboot
-  ![11](notes/images/clonezilla/11-reboot.jpg)
+  ![11](images/clonezilla/11-reboot.jpg)
+  - Select yes to start the copy process
+  ![12](images/clonezilla/12-yes.jpg)
 
 5.Copy the EFI system partition
   - Boot the computer from the USB flash drive.
   - Choose Clonezilla live (Default settings, VGA 800x600).
+  ![1](images/clonezilla/1.jpg)
   - Choose language
+  ![2](images/clonezilla/2-language.jpg)
   - Keep default keyboard layout
+  ![3](images/clonezilla/3-keyboard.jpg)
   - Start Clonezilla
+  ![4](images/clonezilla/4-start.jpg)
   - Choose device-device work directly from a disk or partition to a disk or partition
+  ![5](images/clonezilla/5-device-device.jpg)
   - Choose Beginner mode
-  - Choose partition to local partition
+  ![6](images/clonezilla/6-beginner.jpg)
+  - Choose part_to_local_part
+  ![7](images/clonezilla/7-local-partition.jpg)
+  - Choose the source partition
+  > In this case, `/dev/sda1` store the EFI system partition.
+  ![13](images/clonezilla/13-source-partition.jpg)
+  - Choose the destination partition
+  > In this case, `/dev/sdb1` store the copy of the EFI system partition.
+  ![14](images/clonezilla/14-destination.jpg)
+  - Skip checking the source partition
+  ![10](images/clonezilla/10-skip.jpg)
+  - Choose reboot
+  ![11](images/clonezilla/11-reboot.jpg)
+  - Select yes to start the copy process
+  ![12](images/clonezilla/12-yes.jpg)
+
+## Notes
+> [!Info]
+> There might be an another way to copy the both EFI system and Ubuntu at the same time (choose device-image instead of device-device work directly). However, I have failed serval times, I will update this note if I find a way to do it. 

@@ -13,6 +13,7 @@ enableToc: true
 3. 模擬  
 	1. 匯入地圖檔  
 	2. 加入光達sensor  
+
 ## Guide
 - Import solidworks models into gazebo  
 	- [Instruction - import solidworks model to gazebo](https://blogs.solidworks.com/teacher/wp-content/uploads/sites/3/WPI-Robotics-SolidWorks-to-Gazebo.pdf)  
@@ -53,35 +54,55 @@ enableToc: true
 	- [Instruction - Using Gazebo for Reinforcement Learning](https://karelics.fi/using-gazebo-for-reinforcement-learning/)  
 	- [Video - create custom gym-gazebo env](https://www.youtube.com/watch?v=tfca_gXvmWs)
 
-## Bug fixes
-- Fix "Received JointState is 1531129342.521295 seconds old"  
-	- [Discourse - ROS answers](https://answers.ros.org/question/296720/delay-in-jointstates/)  
+- Navigation stack
+	- [ROS.org - navigation](http://wiki.ros.org/navigation)
+	- [ROS.org - navigation/Tutorial](https://wiki.ros.org/navigation/Tutorials)  
+	- [Instruction - 對於-navigation-stack-的基本了解](https://charlyhuangrostutorial.wordpress.com/2016/03/04/%E5%B0%8D%E6%96%BC-navigation-stack-%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BA%86%E8%A7%A3/comment-page-1/)   
+	- [Instruction - [ROS#13]Navigation](https://ithelp.ithome.com.tw/articles/10222020)   
+	- [Instruction - [ROS#8]SLAM & Navigation介紹](https://ithelp.ithome.com.tw/articles/10219552)   
+	- [Youtube - ROS Navigation tutorial list](https://www.youtube.com/playlist?list=PLK0b4e05LnzZA_fWYi1_VEuBzNw9BGo6s)   
+
 - If-else statement in xacro  
 	- [Discourse - ROS answers](https://answers.ros.org/question/349515/conditional-block-for-params-on-macro-xacro/)  
-- Fix "No p gain specified for pid."  
-	- [Discourse - ROS answers : setup controllers in xacro and yaml files](https://answers.ros.org/question/326628/how-to-control-velocity-of-joints-in-gazebo-using-ros_controllers/)  
-	- [Instruction - gazebo tutorial : very detail](https://sir.upc.edu/projects/rostutorials/10-gazebo_control_tutorial/index.html)  
-	- ```robotNamespace``` cannot be empty 
-	```xml
-		 <gazebo>
+
+## Bug fixes
+- Error :
+	> Received JointState is 1531129342.521295 seconds old
+	- Solution :  
+		- [Discourse - ROS answers](https://answers.ros.org/question/296720/delay-in-jointstates/)  
+
+- Error :
+	> No p gain specified for pid.
+	- Solution :  
+		- [Discourse - ROS answers : setup controllers in xacro and yaml files](https://answers.ros.org/question/326628/how-to-control-velocity-of-joints-in-gazebo-using-ros_controllers/)  
+		- [Instruction - gazebo tutorial : very detail](https://sir.upc.edu/projects/rostutorials/10-gazebo_control_tutorial/index.html)  
+		- ```robotNamespace``` cannot be empty 
+		```xml
+		<gazebo>
 			<plugin
 				name="gazebo_ros_control"
 				filename="libgazebo_ros_control.so">
 			<robotNamespace>/car</robotNamespace>
 			</plugin>
 		</gazebo>
-	```  
-- Laser plugin does not scan
-	- [Video - Using gazebo Laser Scan Plugin](https://www.youtube.com/watch?v=M_pzenkPZfE)  
-	- Change the plugin name from ```libgazebo_ros_gpu_laser.so``` to ```libgazebo_ros_laser.so```  
-- Fix "could not load model" in Rviz2  
-	- [Discourse - Fail to load mesh files](https://www.reddit.com/r/ROS/comments/w7zu18/ros2_foxy_mesh_file_isnt_loading_into_rviz/)  
-	- In CMakeLists.txt add "meshes" to install()
-	```txt
+		```  
+
+- Error :
+	> Laser plugin does not scan
+	- Solution :
+		- [Video - Using gazebo Laser Scan Plugin](https://www.youtube.com/watch?v=M_pzenkPZfE)  
+		- Change the plugin name from ```libgazebo_ros_gpu_laser.so``` to ```libgazebo_ros_laser.so```
+  
+- Error :
+	> "could not load model" in Rviz2  
+	- Solution :
+		- [Discourse - Fail to load mesh files](https://www.reddit.com/r/ROS/comments/w7zu18/ros2_foxy_mesh_file_isnt_loading_into_rviz/)  
+		- In CMakeLists.txt add "meshes" to ```install()```
+		```txt
 		install(
 		DIRECTORY config description launch worlds meshes
 		DESTINATION share/${PROJECT_NAME}
 		)
-	```
+		```
 
 

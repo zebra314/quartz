@@ -4,9 +4,9 @@ enableToc: true
 ---
 [[catalog/learning/programming/c++|c++]]
 
-# 語法
+## 語法
 
-## 講稿
+### 講稿
 - what is Function and Why Function ?
 > 簡單來說 函式 就是把很多個程序 提前定義成一個動作
 > 而每次我們想做很多個程序時 就請電腦做這一個動作
@@ -120,8 +120,8 @@ int main()
 }
 ```
     
-# 直流馬達
+## 直流馬達
 
-# 伺服馬達
+## 伺服馬達
 
-# 步進馬達
+## 步進馬達

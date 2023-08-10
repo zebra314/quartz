@@ -1,16 +1,19 @@
 ---
-title: Working Record
+title: ITRI intern working record
 enableToc: true
 ---
 [[catalog/learning/intern|intern]]
+
+## Overview
+This is the working time record of my interning at itri 2023. 
 
 ## July
 - 0703
   - 11:00 - 12:00
   - 13:00 - 1800
 - 0704
-	- 9:00 - 12:00
-	- 13:00 - 18:00
+  - 9:00 - 12:00
+  - 13:00 - 18:00
 - 0705
   - 9:30 - 12:00
   - 園遊會

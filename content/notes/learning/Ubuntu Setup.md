@@ -34,8 +34,6 @@ enableToc: true
 3. If fail to launch the game, install the right game driver(correspond to the lol version) in 
 ```/home/alfonso/.local/share/lutris/runners/wine``` or just revise the file name in directory.
 
-
-
 ## ROS
 1. Install [miniconda](https://docs.conda.io/en/latest/miniconda.html)
 2. Install [robostack](https://robostack.github.io/index.html)

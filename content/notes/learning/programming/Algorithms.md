@@ -4,7 +4,7 @@ enableToc: true
 ---
 [[catalog/learning/programming/c++|c++]]
 
-# 十進位轉二進位
+## 十進位轉二進位
 ```c
 	string ans_str // 不能用int 轉換完的二進位數字很可能裝不下
     while (input != 0){ // input 可以用int
@@ -12,12 +12,13 @@ enableToc: true
         input /= 2;
     }
 ```
-# LCS (longest common subsequence)
-## 思路
+## LCS (longest common subsequence)
+### 思路
 1. 建表
 2. 若字母相同 值等於左邊的值加一
 3. 若字母不同 等於左邊或上方較大者
-## 解法
+
+### 解法
 ```c
 int longestCommonSubsequence(string text1, string text2) 
 {
@@ -37,7 +38,7 @@ int longestCommonSubsequence(string text1, string text2)
 }
 ```
 
-# LIS基礎演算法
+## LIS基礎演算法
 
 1. 時間複雜度:O(n<sup>2</sup>)
 2. Code:
@@ -75,7 +76,7 @@ int main()
 }
 ```
 
-# LIS進階演算法(只求長度)
+## LIS進階演算法(只求長度)
 
 1. 時間複雜度:O(n_log_n)
 2. DP, Greedy, Binary search
@@ -98,7 +99,7 @@ int main()
 }
 ```
 
-# Binary Search
+## Binary Search
 
 ```c
 int binary_search(vector<int>v,int target) //find the position 
@@ -117,7 +118,7 @@ int binary_search(vector<int>v,int target) //find the position
 }
 ```
 
-# 輾轉相除法
+## 輾轉相除法
 
 1. 求最大公因數
 
@@ -139,7 +140,7 @@ int GCD(int a, int b)
 }
 ```
 
-# types of algorithms
+## types of algorithms
 1. 排序 搜尋法
 2. greedy 
 3. dynamic programming

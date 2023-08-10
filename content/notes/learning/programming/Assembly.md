@@ -4,17 +4,17 @@ enableToc: true
 ---
 [[catalog/learning/programming|programming]]
 
-# 參考資料
+## 參考資料
 [1](http://godleon.blogspot.com/2008/01/machine-language-cpu-machine-language.html)  
 [2](https://blog.csdn.net/horizontalview/article/details/50773740)  
 
-# 名詞
+## 名詞
 1. 暫存器 寄存器 register
 2. 記憶體 內存 memory
 3. `r0` 是 ARM 架構中的一個通用暫存器, 用來儲存一個32位的值
 
-# 語法
-## 架構
+## 語法
+### 架構
 - .data 初始化常數
 - .text 初始化變量
 - .main 主程式
@@ -62,7 +62,7 @@ L:
 	strh r0, [r1]
 	B L
 ```
-##  常用指令
+###  常用指令
 - mov
 	- 暫存器到暫存器
 	- 新增資料到暫存器

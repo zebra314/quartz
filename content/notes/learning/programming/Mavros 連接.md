@@ -4,10 +4,10 @@ enableToc: true
 ---
 [[catalog/learning/programming/ros|ros]]
 
-# launch 
+## Launch 
 > roslaunch mavros px4.launch
 
-# check connect
+## Check connect
 > rostopic echo /mavros/state
 > rostopic echo -n1 /diagnostics 
 > rosrun mavros checkid 

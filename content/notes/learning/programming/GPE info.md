@@ -4,7 +4,7 @@ enableToc: true
 ---
 [[catalog/learning/programming/c++|c++]]
 
-# Two star
+## Two star
 - [x] [Power Strings](https://zerojudge.tw/ShowProblem?problemid=a223)
 - [x] [All in All](https://zerojudge.tw/ShowProblem?problemid=e624)
 - [ ] [Power Crisis](https://vjudge.net/problem/UVA-151)
@@ -58,7 +58,7 @@ enableToc: true
 - [ ] [Minimal Coverage](https://zerojudge.tw/ShowProblem?problemid=e576)
 - [ ] [Fast Page Rank](https://zerojudge.tw/ShowProblem?problemid=b775)
 
-# One star
+## One star
 - [x] [The 3n + 1 problem](https://zerojudge.tw/ShowProblem?problemid=c039)
 - [x] [Mutant Flatworld Expolrers](https://zerojudge.tw/ShowProblem?problemid=c082)
 - [x] [TeX Quotes](https://zerojudge.tw/ShowProblem?problemid=c007)

@@ -2,6 +2,8 @@
 title: A light bulb
 enableToc: true
 ---
+[[catalog/interest/idea|idea]]
+
 ## names
 1. sudo rm -rf
 2.  kōura (a kind of crayfish, Māori name)

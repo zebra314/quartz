@@ -2,7 +2,7 @@
 title: Scout Setup
 enableToc: true
 ---
-[[catalog/learning/intern]] - [[catalog/learning/programming|programming]]
+[[catalog/learning/intern|intern]] & [[catalog/learning/programming/ros|ros]]
 ## Reference
 - [Instruction - SCOUT 的ROS PACKAGE 介绍和使用](https://blog.csdn.net/hltt3838/article/details/108603888)
 - [GIthub repo - weston/scout_ros](https://github.com/westonrobot/scout_ros)

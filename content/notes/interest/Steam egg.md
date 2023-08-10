@@ -2,6 +2,8 @@
 title: Steam egg
 enableToc: true
 ---
+[[catalog/interest/recipe|recipe]]
+
 ## Previous Attemps
 - 兩根筷子墊在鍋蓋下，使之熟的較慢，蒸蛋表皮才不會有洞洞
 - 碗內水量，半個蛋殼，蛋數乘以二

@@ -2,7 +2,7 @@
 title: PX4 仿真
 enableToc: true
 ---
-[[catalog/learning/programming|programming]] & [[catalog/learning/command|command]]
+[[catalog/learning/programming/ros|ros]]
 
 ## HIL with RC control
 [HIL模擬](https://docs.px4.io/main/en/simulation/hitl.html)

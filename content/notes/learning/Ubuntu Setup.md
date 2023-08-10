@@ -2,7 +2,7 @@
 title: Ubuntu Setup
 enableToc: true
 ---
-[[catalog/learning/command|command]]
+[[catalog/learning/software|software]]
 
 ## Nvidia Driver
 - [Nvidia專有驅動(driver)](https://ivonblog.com/posts/ubuntu-install-nvidia-drivers/#contents:1-%E5%AE%89%E8%A3%9Dnvidia%E5%B0%88%E6%9C%89%E9%A9%85%E5%8B%95)

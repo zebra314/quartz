@@ -2,8 +2,9 @@
 title: Blender
 enableToc: true
 ---
-[[catalog/learning/command|command]]
-# Object
+[[catalog/learning/software|software]]
+
+## Object
 - G for movnig
 - R for rotating
 - S for scaling
@@ -17,7 +18,7 @@ enableToc: true
 	- subdivision surface
 - mode
 	- crl + tab for switching mode
-# View
+## View
 - press mouse wheel for orbiting the view
 - shift + mouse wheel for horziontal moving 
 - ~ for switching to other angle of view

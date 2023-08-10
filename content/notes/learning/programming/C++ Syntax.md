@@ -2,9 +2,10 @@
 title: C++ Syntax
 enableToc: true
 ---
-[[catalog/learning/programming|programming]]
-# Input
-## 優化
+[[catalog/learning/programming/c++|c++]]
+
+## Input
+### 優化
 
 ```c
 int main()
@@ -14,7 +15,7 @@ int main()
 	/*do something...*/
 }
 ```
-## 種類
+### 種類
 ```c
 string str;
 char cha;
@@ -30,7 +31,7 @@ ch=cin.get();
 cin.get() //可接受空格與換行 //與getchar()功能差不多
 ```
 
-# set, multiset
+## set, multiset
 
 1. STL容器
 2. ```.insert()```插入元素
@@ -41,7 +42,7 @@ cin.get() //可接受空格與換行 //與getchar()功能差不多
 7. ```.count()```判斷元素是否存在,回傳 0 or 1
 8. ```.find()```也是用來判斷元素是存在,但回傳的是指向其儲存位址的指標
 
-# lower_bound(),  upper_bound()
+## lower_bound(),  upper_bound()
 
 1. ```lower_bound(``` _.begin()_ ```,``` _.end()_ ```,``` _value_ ```)```
 2. 返回位置
@@ -53,7 +54,7 @@ cin.get() //可接受空格與換行 //與getchar()功能差不多
  posi = upper_bound(vector.begin(),vector.end(),int); // > , 最小 大於int 的數
 ```
 
-# find()
+## find()
 
 1. 檢查, 搜尋位置
 2. 返回位址
@@ -78,7 +79,7 @@ else
 }
 ```
 
-# .end(), .back(), .front(), .begin() 差別
+## .end(), .back(), .front(), .begin() 差別
 
 ```c
 v: [ 1 | 2 | 3 | 4 | ... | 999 ]
@@ -88,7 +89,7 @@ v: [ 1 | 2 | 3 | 4 | ... | 999 ]
    begin()
 ```
 
-# isalpha(), isdigit()
+## isalpha(), isdigit()
 
 + 用來判斷字元是字母或數字
 + 回傳bool
@@ -100,7 +101,7 @@ isdigit('a') == 0
 isdigit('1') == 1
 ```
 
-# .length(),  .size()
+## .length(),  .size()
 
 + 回傳int
 
@@ -109,33 +110,33 @@ a.length()
 a.size()
 ```
 
-# Vector 更動元素 
+## Vector 更動元素 
 
-##  刪除特定位置
+###  刪除特定位置
 - ```.erase()```
 ```c
 b.erase(b.begin()+3); //刪除第三個元素(b[2])
 b.erase(b.begin()+3,b.begin()+6); //刪除第三到第六個元素
 ```
 
-##  新增至特定位置
+###  新增至特定位置
 - ```.insert()```
 ```c
 b.insert(b.begin(),element); //在開頭加入element
 ```
 
-# float, double 
+## float, double 
 
 - ```float``` 32位元 有效數字6~7
 - ```double``` 64位元 有效數字15~16 (比較精確)  
 
 
-# .sort()
+## .sort()
 
 - ```.sort( 起始位置 , 結束位置 , 排序依據 0 or 1)```
 - 排序依據 預設為小到大
 
-# 小數點輸出
+## 小數點輸出
 
 - 輸出四位有效位數
 ```c
@@ -147,7 +148,7 @@ cout<<setprecision(4)<<....;
  cout<<setprecision(4)<<fixed<<....;
  ```
 
-# sstream
+## sstream
 
 - ```<sstream>```
 - stringstream (ostringstream 和 istringstream的綜合)
@@ -164,9 +165,9 @@ s<<a<<c<<h;
 cout<< s.str();
 ```
 
-# string int 轉換
+## string int 轉換
 
-## 刪除空格, 萃取數字
+### 刪除空格, 萃取數字
 ```c
 stringstream ss;
 ss.clear();
@@ -180,11 +181,11 @@ while(ss>>temp) // 分次流出 // 匯出成string或int 都可以
 	cout<<temp<<" "; // int
 }
 ```
-## stoi
+### stoi
 ```
 string a ="123"
 ```
-## int to string
+### int to string
 ```c
 stringstream b;
 b.str("")
@@ -194,15 +195,15 @@ b<< (int);
 b>>(string);
 ```
 
-# 遍歷 簡潔寫法
+## 遍歷 簡潔寫法
 
-## in side for()
+### in side for()
 - 想要拷貝元素：for(auto x:range)
 - 想要修改元素 :  for(auto &&x:range)
 - 想要只讀元素：for(const auto& x:range)
 - 注意! 此時不能用```scanf()```,```printf()```
 
-## example
+### example
 ```c
 int x[10] = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
 for(const auto &y : x ) {cout<<y<<” ”;} //x要遍歷的容器 vector,map…
@@ -224,7 +225,7 @@ for( const auto &n :a)    //n的&省略會噴錯
 // 2 3 1
 // 3 4 0
 ```
-# Custom sort rule
+## Custom sort rule
  ```c
  bool rule(type<...>i, type<...>j)
  {
@@ -247,11 +248,11 @@ bool rule(pair<int,int> i, pair<int,int>j)
 sort
 ```
 
-# 三元運算子
-## how
+## 三元運算子
+### how
 - 判斷 ? 前面的條件式
 - : 相當於or 
-## example 1
+### example 1
 ```c
 	if(x == true) 
 		val = y;
@@ -262,7 +263,7 @@ sort
 	val = x ? y : z ;
 ```
 
-## example 2
+### example 2
 ```c
 // 輾轉相除法 GCD
 int GCD(int a, int b)
@@ -277,10 +278,10 @@ int GCD(int a, int b)
 ```c
 int GCD(int a, int b){ return b == 0 ? a : GCD(b, a % b); }
 ```
-# Map
-## unordered_map
+## Map
+### unordered_map
 - 沒有排序過的map
-## iterator
+### iterator
 ```c
 	unordered_map<int, int> ans;
 	/*init...*/

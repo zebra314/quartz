@@ -2,9 +2,9 @@
 title: AFV
 enableToc: true
 ---
-[[catalog/learning/intern|intern]] & [[catalog/learning/programming|programming]]
+[[catalog/learning/intern|intern]] & [[catalog/learning/programming/ros|ros]]
 
-## Setup
+## Package Setup
 ### Install [ceres solver](http://ceres-solver.org/installation.html#linux)
 ```bash shell
 sudo apt-get update
@@ -54,7 +54,7 @@ sudo apt-get install ros-$ROS_DISTRO-navigation
 sudo apt-get install ros-$ROS_DISTRO-sound-play
 ```
 
-## Bug fixes  
+### Bug fixes  
 - Error 
 	> port 22: Connection refused
 	- Solution : 
@@ -71,13 +71,13 @@ sudo apt-get install ros-$ROS_DISTRO-sound-play
 	> conflicting declaration ‘typedef struct LZ4_stream_t LZ4_stream_t’
 	- Solution :  
 		```bash
-		sudo mv /usr/include/flann/ext/lz4.h /usr/include/flann/ext/lz4.h.bak   
+		sudo mv /usr/include/flann/ext/lz4.h /usr/include/flann/ext/lz4.h.bak  
 		sudo mv /usr/include/flann/ext/lz4hc.h /usr/include/flann/ext/lz4.h.bak 
 		sudo ln -s /usr/include/lz4hc.h /usr/include/flann/ext/lz4hc.h  
 		sudo ln -s /usr/include/lz4.h /usr/include/flann/ext/lz4.h   
 		```
 
-### when compile afv_sensors    
+#### when compile afv_sensors    
 - Error : 
 	> Could not find a package configuration file provided by "Ceres" with any of the following names: CeresConfig.cmake ceres-config.cmake
 	- Solution : 
@@ -151,7 +151,7 @@ sudo apt-get install ros-$ROS_DISTRO-sound-play
 		sudo ln -s /usr/include/lz4.h /usr/include/flann/ext/lz4.h
 		```
 
-### when compile feature/afv_mln
+#### when compile feature/afv_mln
 - Error :
 	> Could NOT find GeographicLib (missing: GeographicLib_LIBRARIES GeographicLib_INCLUDE_DIRS)
 	- Solution :
@@ -181,39 +181,53 @@ sudo apt-get install ros-$ROS_DISTRO-sound-play
 - [ROS.org - msg setup](http://wiki.ros.org/msg)
 - [Instruction - empty service](https://qiita.com/hoshianaaa/items/74b0ffbcbf97f4938a4d)
 - [Instruction - Define and use custom message types (C++ and Python)](https://people.eng.unimelb.edu.au/pbeuchat/asclinic/software/ros_define_and_use_custom_message_types.html)
+- [Instruction - LINUX SERIAL PORTS USING C/C++](https://blog.mbedded.ninja/programming/operating-systems/linux/linux-serial-ports-using-c-cpp/)
+
 ### Bug fixes  
 - Error : 
-- > fatal error: CMakeFiles/lidar_align.dir/src/aligner.cpp.d: No such file or directory``` ```fatal error: CMakeFiles/lidar_align.dir/src/sensors.cpp.d: No such file or directory```
-	- In CMakeList.txt, change```add_definitions(-std=c++11 -ofast)``` to ```add_definitions(-std=c++11 -Ofast)```
--[Instruction - LINUX SERIAL PORTS USING C/C++](https://blog.mbedded.ninja/programming/operating-systems/linux/linux-serial-ports-using-c-cpp/) 
+	> fatal error: CMakeFiles/lidar_align.dir/src/aligner.cpp.d: No such file or directory
+	> fatal error: CMakeFiles/lidar_align.dir/src/sensors.cpp.d: No such file or directory
+	- Solution :
+		- In CMakeList.txt, change```add_definitions(-std=c++11 -ofast)``` to ```add_definitions(-std=c++11 -Ofast)```
 
+- Error :
+	> TypeError: unicode strings are not supported, please encode to bytes: '\x0f'
+	- Solution :
+		- Add ```.encode()``` to the string in ```.write()``` function
+		- [CSDN - 不同python版本在使用pyserial的一些使用区别](https://blog.csdn.net/weixin_38685248/article/details/71356712)
 
-
-- Test pcb
+## VCU Control Board Connection test
+### Content
 - Monitor the log of usb
-	- ```dmesg -w```
-## Reference
-- [CSDN - Ubuntu 18 ft232驅動安裝](https://blog.csdn.net/qq_41035283/article/details/125394394)
-## Bug fixes  
-- Fix ```could not open port /dev/ttyUSB0: [Errno 13] Permission denied: '/dev/ttyUSB0'```
-	- ```sudo usermod -a -G dialout $USER```
-- Fix ```/usr/bin/env: 'python' No such file or directory```
-	- ```sudo ln -s /usr/bin/python3 /usr/bin/python```
-
-
-
-# Control Board
-## Content
+	```bash
+	dmesg -w
+	```
 - USB to TTL 晶片型號
 	- FTDI FT232RL   
 	- PL2303   
 	- CH340 (目前使用)
 	- CP2102
 
+### Reference
+- [CSDN - Ubuntu 18 ft232驅動安裝](https://blog.csdn.net/qq_41035283/article/details/125394394)
 - [Github repo - Fix Driver issues for CH340N usb serial chip in Linux (Ubuntu 22.04)](https://gist.github.com/dattasaurabh82/082d13fd61c0d06c7a358c5e605ce4fd)
 - [Github repo - CH341SER driver](https://github.com/juliagoda/CH341SER)
 - [CSDN - ubuntu18.04下安装CH340串口驱动](https://blog.csdn.net/weixin_42591529/article/details/109611687)
 - [Instruction - How to Install CH340 Drivers](https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers/linux)   
 - [Instruction - install GtkTerm](http://odinq.blogspot.com/2009/01/ubuntu-gtkterm.html)
-
 - [Instruction - Ubuntu切換kernel](https://www.cnblogs.com/gaowengang/p/12506096.html#:~:text=GRUB_DEFAULT%20%3D%200...%20%E6%94%B9%E4%B8%BA%20GRUB_DEFAULT%3D%20%27Advanced%20options%20for,-%20r%204.15.%200%20-%2045%20-generic%20%E5%AE%8C%E3%80%82)
+
+### Bug fixes  
+- Error :
+	> Could not open port /dev/ttyUSB0: [Errno 13] Permission denied: '/dev/ttyUSB0'
+	- Solution :
+	```bash
+	sudo usermod -a -G dialout $USER
+	```
+
+- Error :
+	> /usr/bin/env: 'python' No such file or directory
+	- Solution :
+	```bash
+	sudo ln -s /usr/bin/python3 /usr/bin/python
+	```

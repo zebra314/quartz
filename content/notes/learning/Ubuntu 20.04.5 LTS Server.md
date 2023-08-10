@@ -2,7 +2,7 @@
 title: Ubuntu 20.04.5 LTS Server
 enableToc: true
 ---
-[[catalog/learning/programming|programming]]
+[[catalog/learning/software|software]]
 
 # Setup
 1. to see the information of operating system

@@ -1,4 +1,4 @@
 ---
-title: command
+title: journal
 enableToc: false
 ---

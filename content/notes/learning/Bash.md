@@ -2,7 +2,7 @@
 title: Bash
 enableToc: true
 ---
-[[catalog/learning/command|command]]
+[[catalog/learning/software|software]]
 
 ## Open file gui from terminal
 ```bash

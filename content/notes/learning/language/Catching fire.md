@@ -2,7 +2,7 @@
 title: Catching fire
 enableToc: true
 ---
-[[catalog/learning/language|language]]
+[[catalog/learning/language/journal|journal]]
 
 - inauspiciously
     > in aus pi cious ly

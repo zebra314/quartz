@@ -2,7 +2,7 @@
 title: Sensor topic Not found
 enableToc: true
 ---
-[[catalog/learning/programming|programming]]
+[[catalog/learning/programming/ros|ros]]
 
 ## Bug report   
 ### Description  

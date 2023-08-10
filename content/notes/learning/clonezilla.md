@@ -2,7 +2,8 @@
 title: Clonezilla
 enableToc: true
 ---
-[[catalog/learning/intern]]
+[[catalog/learning/intern]] & [[catalog/learning/software|software]]
+
 ## Reference
 - [Official website - Download Clonezilla iso](https://clonezilla.nchc.org.tw/clonezilla-live/download/download.php?branch=alternative)
 - [Forum - 再生龍Clonezilla製作還原檔及還原光碟](https://www.mobile01.com/topicdetail.php?f=300&t=1198072)

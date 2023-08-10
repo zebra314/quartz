@@ -2,7 +2,8 @@
 title: Mavros 連接
 enableToc: true
 ---
-[[catalog/learning/programming|programming]]
+[[catalog/learning/programming/ros|ros]]
+
 # launch 
 > roslaunch mavros px4.launch
 

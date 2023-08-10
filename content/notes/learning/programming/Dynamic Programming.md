@@ -2,7 +2,8 @@
 title: Dynamic Programming
 enableToc: true
 ---
-[[catalog/learning/programming|programming]]
+[[catalog/learning/programming/c++|c++]]
+
 ## Top-down 
 - easier to write
 - memoization , usually store in hash map

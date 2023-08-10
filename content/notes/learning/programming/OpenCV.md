@@ -2,7 +2,7 @@
 title: OpenCv
 enableToc: true
 ---
-[[catalog/learning/programming|programming]]
+[[catalog/learning/programming/python|python]]
 
 # 高斯模糊
 

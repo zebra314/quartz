@@ -2,7 +2,7 @@
 title: Drone research
 enableToc: true
 ---
-[[catalog/learning/programming|programming]]
+[[catalog/learning/programming/ros|ros]]
 
 ## 2023/3/2
 連同一個網路

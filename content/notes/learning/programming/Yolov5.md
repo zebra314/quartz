@@ -2,7 +2,7 @@
 title: YoloV5
 enableToc: true
 ---
-[[catalog/learning/programming|programming]]
+[[catalog/learning/programming/python|python]]
 
 # Using YOLOv5 Model for Object Detection with OpenCV
 

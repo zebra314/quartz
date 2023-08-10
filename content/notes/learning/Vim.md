@@ -2,7 +2,7 @@
 title: Vim
 enableToc: true
 ---
-[[catalog/learning/command|command]] & [[catalog/learning/programming|programming]]
+[[catalog/learning/software|software]]
 
 ## Brief
 - Editing in the line

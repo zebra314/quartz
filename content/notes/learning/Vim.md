@@ -7,14 +7,11 @@ enableToc: true
 ## Brief
 - Editing in the line
 	- i I a A
-	- [[notes/learning/Vim#Insert|Insert]]
 - Navigating
 	- h j k l
 	- w b e
-	- [[notes/learning/Vim#Navigate|Navigate]]
 - making changes in command mode
 	- x r
-	- [[notes/learning/Vim#Making changes in command mode|Making changes in command mode]]
 
 ## Mode
 1.  insert

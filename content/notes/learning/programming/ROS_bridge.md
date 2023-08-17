@@ -12,110 +12,112 @@ enableToc: true
 - [Nginx](https://www.nginx.com/), the local server, is used to host the web page locally.
 
 ## Setup
+
 1. Install rosbridge server and nginx 
 	```bash
 	sudo apt-get install ros-$ROS_DISTRO-rosbridge-server
 	sudo apt-get install nginx
 	```
 
-2. Generate ssl certificate and key file using openssl 
-	- cd to the directory you want to store the files first
+2. Generate ssl certificate and key file using openssl (cd to the directory you want to store the files first) 
 	```bash
 	openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout localhost.key -out localhost.crt
 	```
-3. Edit the nginx config in `/etc/nginx/nginx.conf`
-	- Change the default user name www-data to your user name.
 
-	- Add the server config session in the config file.
-		``` bash
-			http {
-				...
-				server {
-					...
-				}
-			}
-		```
+3. Edit the nginx config in ```/etc/nginx/nginx.conf```  
 
-	- Here is an example of the config file
-		```bash
-		user alfonso; # change to your user name
-		worker_processes auto;
-		pid /run/nginx.pid;
-		include /etc/nginx/modules-enabled/*.conf;
+	3.1. Change the default user name www-data to your user name.
 
-		events {
-			worker_connections 768;
-		}
-
+	3.2. Add the server config session in the config file.   
+	```bash
 		http {
-
-			##
-			# Basic Settings
-			##
-
-			sendfile on;
-			tcp_nopush on;
-			types_hash_max_size 2048;
-			# server_tokens off;
-			# server_names_hash_bucket_size 64;
-			# server_name_in_redirect off;
-						
+			...
 			server {
-				listen 90; # change 90 to your port
-				listen [::]:90; # change 90 to your port
-				listen 443 ssl;
-
-				# ssl config
-				ssl_certificate /home/alfonso/Documents/gui/localhost.crt; # change to your path
-				ssl_certificate_key /home/alfonso/Documents/gui/localhost.key; # change to your path
-				ssl_session_cache shared:SSL:10m;
-				ssl_session_timeout 10m;
-				ssl_protocols TLSv1.1 TLSv1.2 TLSv1.3;
-				ssl_ciphers 'ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-ECDSA-CHACHA20-POLY1305:';
-				ssl_prefer_server_ciphers on;
-				server_name localhost;
-				root /home/alfonso/Documents/gui; # change to your page file path
-				index index.html;
+				...
 			}
-			
-			include /etc/nginx/mime.types;
-			default_type application/octet-stream;
-
-			##
-			# SSL Settings
-			##
-
-			ssl_protocols TLSv1 TLSv1.1 TLSv1.2 TLSv1.3; # Dropping SSLv3, ref: POODLE
-			ssl_prefer_server_ciphers on;
-
-			##
-			# Logging Settings
-			##
-
-			access_log /var/log/nginx/access.log;
-			error_log /var/log/nginx/error.log;
-
-			##
-			# Gzip Settings
-			##
-
-			gzip on;
-
-			# gzip_vary on;
-			# gzip_proxied any;
-			# gzip_comp_level 6;
-			# gzip_buffers 16 8k;
-			# gzip_http_version 1.1;
-			# gzip_types text/plain text/css application/json application/javascript text/xml application/xml application/xml+rss text/javascript;
-
-			##
-			# Virtual Host Configs
-			##
-
-			include /etc/nginx/conf.d/*.conf;
-			include /etc/nginx/sites-enabled/*;
 		}
-		```
+	```
+
+	3.3. Here is an example of the config file
+	```bash
+	user alfonso; # change to your user name
+	worker_processes auto;
+	pid /run/nginx.pid;
+	include /etc/nginx/modules-enabled/*.conf;
+
+	events {
+		worker_connections 768;
+	}
+
+	http {
+
+		##
+		# Basic Settings
+		##
+
+		sendfile on;
+		tcp_nopush on;
+		types_hash_max_size 2048;
+		# server_tokens off;
+		# server_names_hash_bucket_size 64;
+		# server_name_in_redirect off;
+					
+		server {
+			listen 90; # change 90 to your port
+			listen [::]:90; # change 90 to your port
+			listen 443 ssl;
+
+			# ssl config
+			ssl_certificate /home/alfonso/Documents/gui/localhost.crt; # change to your path
+			ssl_certificate_key /home/alfonso/Documents/gui/localhost.key; # change to your path
+			ssl_session_cache shared:SSL:10m;
+			ssl_session_timeout 10m;
+			ssl_protocols TLSv1.1 TLSv1.2 TLSv1.3;
+			ssl_ciphers 'ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-ECDSA-CHACHA20-POLY1305:';
+			ssl_prefer_server_ciphers on;
+			server_name localhost;
+			root /home/alfonso/Documents/gui; # change to your page file path
+			index index.html;
+		}
+		
+		include /etc/nginx/mime.types;
+		default_type application/octet-stream;
+
+		##
+		# SSL Settings
+		##
+
+		ssl_protocols TLSv1 TLSv1.1 TLSv1.2 TLSv1.3; # Dropping SSLv3, ref: POODLE
+		ssl_prefer_server_ciphers on;
+
+		##
+		# Logging Settings
+		##
+
+		access_log /var/log/nginx/access.log;
+		error_log /var/log/nginx/error.log;
+
+		##
+		# Gzip Settings
+		##
+
+		gzip on;
+
+		# gzip_vary on;
+		# gzip_proxied any;
+		# gzip_comp_level 6;
+		# gzip_buffers 16 8k;
+		# gzip_http_version 1.1;
+		# gzip_types text/plain text/css application/json application/javascript text/xml application/xml application/xml+rss text/javascript;
+
+		##
+		# Virtual Host Configs
+		##
+
+		include /etc/nginx/conf.d/*.conf;
+		include /etc/nginx/sites-enabled/*;
+	}
+	```
 
 3. Build the web page
 	```javascript
@@ -124,13 +126,14 @@ enableToc: true
 
 	<head>
 		<meta charset="utf-8" />
-		<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/roslib@1/build/roslib.js"></script>
 		<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/roslib@1/build/roslib.min.js"></script>
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/nipplejs/0.7.3/nipplejs.js"></script>
 
 		<script type="text/javascript">
 			var ros = new ROSLIB.Ros({
-				url: 'ws://192.168.120.148:9090'
+				// change to your ip address 
+				// 9090 is the default port of rosbridge server
+				url: 'ws://192.168.120.148:9090' 
 			});
 
 			ros.on('connection', function () {

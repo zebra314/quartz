@@ -4,13 +4,6 @@ enableToc: true
 ---
 [[catalog/learning/intern]] & [[catalog/learning/software|software]]
 
-## Reference
-- [Official website - Download Clonezilla iso](https://clonezilla.nchc.org.tw/clonezilla-live/download/download.php?branch=alternative)
-- [Forum - 再生龍Clonezilla製作還原檔及還原光碟](https://www.mobile01.com/topicdetail.php?f=300&t=1198072)
-- [Instruction - Ubuntu hard disk read only](https://juejin.cn/s/hard%20disk%20read%20only%20ubuntu)
-- [Youtube - 再生龍拷貝硬碟](https://www.youtube.com/watch?v=6LcYmS_KJyI)
-- [Stack Overflow - Clonezilla script fails: Unable to find target hard drive](https://stackoverflow.com/questions/73522748/clonezilla-script-fails-unable-to-find-target-hard-drive)
-
 ## Usage
 - To clone a hard disk partition from a dual-boot system
 
@@ -121,3 +114,10 @@ enableToc: true
 ## Notes
 > [!Info]
 > There might be an another way to copy the both EFI system and Ubuntu at the same time (choose device-image instead of device-device work directly). However, I have failed serval times, I will update this note if I find a way to do it. 
+
+## Reference
+- [Official website - Download Clonezilla iso](https://clonezilla.nchc.org.tw/clonezilla-live/download/download.php?branch=alternative)
+- [Forum - 再生龍Clonezilla製作還原檔及還原光碟](https://www.mobile01.com/topicdetail.php?f=300&t=1198072)
+- [Instruction - Ubuntu hard disk read only](https://juejin.cn/s/hard%20disk%20read%20only%20ubuntu)
+- [Youtube - 再生龍拷貝硬碟](https://www.youtube.com/watch?v=6LcYmS_KJyI)
+- [Stack Overflow - Clonezilla script fails: Unable to find target hard drive](https://stackoverflow.com/questions/73522748/clonezilla-script-fails-unable-to-find-target-hard-drive)

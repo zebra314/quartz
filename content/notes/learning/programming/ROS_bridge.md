@@ -11,6 +11,12 @@ enableToc: true
 - Rosbridge server provides a websocket to connect the ros system and the web page.
 - [Nginx](https://www.nginx.com/), the local server, is used to host the web page locally.
 
+- > [!INFO] The ports
+  > 
+  > There are two ports in this system, one is the port of rosbridge server, the other is the port of local server.
+	> - The port of rosbridge server is set to 9090 by default. The setting is in the HTML file and the launch file of rosbridge server, we can change it, but remember to change the port in the HTML file and the launch file at the same time.
+	> - The port of local server is set to 90 by default. The setting is in the nginx config file. This port is used to host the web page locally, and for the user to access the web page.
+
 ## Setup
 
 1. Install rosbridge server and nginx 
@@ -26,21 +32,21 @@ enableToc: true
 
 3. Edit the nginx config in ```/etc/nginx/nginx.conf```  
 
-	3.1. Change the default user name www-data to your user name.
+	3.1. Change the default user name www-data to hoster user name (the first line of the file, see example 3.3.)
 
 	3.2. Add the server config session in the config file.   
 	```bash
 		http {
 			...
 			server {
-				...
+				# Put your server config here
 			}
 		}
 	```
 
 	3.3. Here is an example of the config file
 	```bash
-	user alfonso; # change to your user name
+	user alfonso; # change to local server name
 	worker_processes auto;
 	pid /run/nginx.pid;
 	include /etc/nginx/modules-enabled/*.conf;
@@ -63,20 +69,20 @@ enableToc: true
 		# server_name_in_redirect off;
 					
 		server {
-			listen 90; # change 90 to your port
-			listen [::]:90; # change 90 to your port
+			listen 90; # change 90 to local server  port
+			listen [::]:90; # change 90 to local server port
 			listen 443 ssl;
 
 			# ssl config
-			ssl_certificate /home/alfonso/Documents/gui/localhost.crt; # change to your path
-			ssl_certificate_key /home/alfonso/Documents/gui/localhost.key; # change to your path
+			ssl_certificate /home/alfonso/Documents/gui/localhost.crt; # change to file path on local server
+			ssl_certificate_key /home/alfonso/Documents/gui/localhost.key; # change to file path on local server
 			ssl_session_cache shared:SSL:10m;
 			ssl_session_timeout 10m;
 			ssl_protocols TLSv1.1 TLSv1.2 TLSv1.3;
 			ssl_ciphers 'ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-ECDSA-CHACHA20-POLY1305:';
 			ssl_prefer_server_ciphers on;
 			server_name localhost;
-			root /home/alfonso/Documents/gui; # change to your page file path
+			root /home/alfonso/Documents/gui; # change to the directory of the web page on local server
 			index index.html;
 		}
 		
@@ -119,7 +125,8 @@ enableToc: true
 	}
 	```
 
-3. Build the web page
+3. The example web page, using a virtual joystick to publish the cmd_vel topic.
+![](images/rosbridge/example_webpage.png)
 	```javascript
 	<!DOCTYPE html>
 	<html>
@@ -131,7 +138,7 @@ enableToc: true
 
 		<script type="text/javascript">
 			var ros = new ROSLIB.Ros({
-				// change to your ip address 
+				// change to robot ip address 
 				// 9090 is the default port of rosbridge server
 				url: 'ws://192.168.120.148:9090' 
 			});
@@ -234,29 +241,30 @@ enableToc: true
 	```
 
 ## Startup
+### On robot side
+
 1. Start rosbridge server
 	```bash
 	roslaunch rosbridge_server rosbridge_websocket.launch
 	```
 
-2. Start local server
+2. After the user side is connected, check if the data is received.
+	```bash
+	rostopic echo /cmd_vel
+	```
+
+### On local server side
+
+1. Start local server
 	```bash
 	sudo service nginx start
 	```
 
-3. Check the ip address of the computer
-	```bash
-	ifconfig
-	```
+### On user side
 
-4. Open the web page
+1. Open the web page
 	```bash
-	https://<ip address>:90
-	```
-
-5. Check if the ros system receive the data from the web page
-	```bash
-	rostopic echo /cmd_vel
+	https://<ip address of the local server>:90
 	```
 
 ## Bug fixes

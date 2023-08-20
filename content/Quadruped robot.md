@@ -43,17 +43,9 @@ x_2 &= \sqrt{ (D - P_x)^2 + P_y^2 } \\
 \end{align*}$$
 
 >[!Summary]
-> $$
-> \begin{align*} \theta_1 = \alpha_1 + \beta_1 &= \arctan\left(\sqrt{\frac{T_y^2}{T_x^2}}\right) + \arccos\left(\frac{1}{16}\left(\frac{T_x^2 + T_y^2 - 260}{\sqrt{T_x^2 + T_y^2}}\right)\right) \\ \theta_2 = \alpha_2 + \beta_2 &= \arctan \left( \frac{\frac{-64}{18} \sin(\arctan(\sqrt{T_y^2/T_x^2}) + \arccos(\frac{1}{16} (\frac{T_x^2 + T_y^2 - 260}{\sqrt{T_x^2 + T_y^2}}))) + 10 T_y}{8.16 - \frac{32}{9} \cos(\arctan(\sqrt{T_y^2/T_x^2}) + \arccos(\frac{1}{16} (\frac{T_x^2 + T_y^2 - 260}{\sqrt{T_x^2 + T_y^2}}))) - \frac{5}{9} T_x} \right) \\ &+ \arccos \left( \frac{\frac{1}{16} (\left(8.16 - \frac{32}{9} \cos(\arctan(\sqrt{T_y^2/T_x^2}) + \arccos(\frac{1}{16} (\frac{T_x^2 + T_y^2 - 260}{\sqrt{T_x^2 + T_y^2}}))) - \frac{5}{9} T_x\right)^2 + \frac{-64}{324} \sin(\arctan(\sqrt{T_y^2/T_x^2}) + \arccos(\frac{1}{16} (\frac{T_x^2 + T_y^2 - 260}{\sqrt{T_x^2 + T_y^2}})) + 10 T_y)^2 - 105}{\sqrt{\left(8.16 - \frac{32}{9} \cos(\arctan(\sqrt{T_y^2/T_x^2}) + \arccos(\frac{1}{16} (\frac{T_x^2 + T_y^2 - 260}{\sqrt{T_x^2 + T_y^2}}))) - \frac{5}{9} T_x\right)^2 + \frac{-64}{324} \sin(\arctan(\sqrt{T_y^2/T_x^2}) + \arccos(\frac{1}{16} (\frac{T_x^2 + T_y^2 - 260}{\sqrt{T_x^2 + T_y^2}})) + 10 T_y)^2}} \right)  \\ 
-> \end{align*}
-> $$
+>
+>$$\begin{align*}
+\theta_1 = \alpha_1 + \beta_1 &= \arctan\left(\sqrt{\frac{T_y^2}{T_x^2}}\right) + \arccos\left(\frac{1}{16}\left(\frac{T_x^2 + T_y^2 - 260}{\sqrt{T_x^2 + T_y^2}}\right)\right) \\
+\theta_2 = \alpha_2 + \beta_2 &= \arctan \left( \frac{\frac{-64}{18} \sin(\arctan(\sqrt{T_y^2/T_x^2}) + \arccos(\frac{1}{16} (\frac{T_x^2 + T_y^2 - 260}{\sqrt{T_x^2 + T_y^2}}))) + 10 T_y}{8.16 - \frac{32}{9} \cos(\arctan(\sqrt{T_y^2/T_x^2})+\arccos(\frac{1}{16} (\frac{T_x^2 + T_y^2 - 260}{\sqrt{T_x^2 + T_y^2}}))) - \frac{5}{9} T_x} \right) \\ &+ \arccos \left( \frac{\frac{1}{16} (\left(8.16 - \frac{32}{9} \cos(\arctan(\sqrt{T_y^2/T_x^2}) + \arccos(\frac{1}{16} (\frac{T_x^2 + T_y^2 - 260}{\sqrt{T_x^2 + T_y^2}}))) - \frac{5}{9} T_x\right)^2 + \frac{-64}{324} \sin(\arctan(\sqrt{T_y^2/T_x^2}) + \arccos(\frac{1}{16} (\frac{T_x^2 + T_y^2 - 260}{\sqrt{T_x^2 + T_y^2}})) + 10 T_y)^2 - 105}{\sqrt{\left(8.16 - \frac{32}{9} \cos(\arctan(\sqrt{T_y^2/T_x^2}) + \arccos(\frac{1}{16} (\frac{T_x^2 + T_y^2 - 260}{\sqrt{T_x^2 + T_y^2}}))) - \frac{5}{9} T_x\right)^2 + \frac{-64}{324} \sin(\arctan(\sqrt{T_y^2/T_x^2}) + \arccos(\frac{1}{16} (\frac{T_x^2 + T_y^2 - 260}{\sqrt{T_x^2 + T_y^2}})) + 10 T_y)^2}} \right) \\
+\end{align*}$$
 > kind of scary...This function is only for demonstration, I'm not going to use it in c++ programming, but break down the steps and store the values into variables instead.
-
-### Velocity transformation
-
-
-## Trajectory control 
-### Overview
-### Reference
-- [機器人的軌跡規劃與防撞處理](http://w3.uch.edu.tw/control/download/9%E5%99%A8%E4%BA%BA%E7%9A%84%E8%BB%8C%E8%B7%A1%E8%A6%8F%E5%8A%83%E8%88%87%E9%98%B2%E6%92%9E%E8%99%95%E7%90%86.pdf)
-- [運動控制命令](https://ir.nctu.edu.tw/bitstream/11536/48246/5/459705.pdf)

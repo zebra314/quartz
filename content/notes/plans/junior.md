@@ -12,7 +12,7 @@ enableToc: false
 	- 留20~21就好 其他退一退
 2. 專題
 	- 兩個禮拜報告一次
-### [[notes/plans/term/exchange|交換]]申請
+### [[notes/plans/exchange|交換]]申請
 1. 托福檢定
 	- 十一月底或十二月初
 2. 參加說明會(11/17, 11/18)

@@ -82,7 +82,12 @@ enableToc: true
 			ssl_ciphers 'ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-ECDSA-CHACHA20-POLY1305:';
 			ssl_prefer_server_ciphers on;
 			server_name localhost;
-			root /home/alfonso/Documents/gui; # change to the directory of the web page on local server
+
+			# Change to the directory of the web page on local server
+			# This will be the root directory of the web page 
+			# Any inlude file in the web page should be in this directory
+			root /home/alfonso/Documents/gui; 
+			
 			index index.html;
 		}
 		

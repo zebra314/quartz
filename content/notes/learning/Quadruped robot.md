@@ -2,7 +2,7 @@
 title: Quadruped robot
 enableToc: true
 ---
-[[catalog/learning/academic/mechanical engineering|mechanical engineering]] & [[catalog/learning/programming/c++|c++]]
+[[catalog/learning/academic|academic]] & [[catalog/learning/programming/c++|c++]]
 
 ## Forward kinematic
 ## Inverse kinematic

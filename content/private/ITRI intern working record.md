@@ -100,3 +100,15 @@ This is the working time record of my interning at itri 2023.
 - 0908
   - 9:00 - 12:00
   - 13:00 - 18:00
+- 0909 (wfh)
+  - 16:30 - 18:00
+  - commit the changes of last week
+## October
+- 1013
+  - 13:00 - 18:00
+- 1017
+  - 9:00 - 12:00
+- 1020
+  - 13:00 - 18:00
+- 1027
+  - 13:00 - 18:00

@@ -2,7 +2,7 @@
 title : Advance vocabulary - The American Revolution
 enableToc: true
 ---
-[[catalog/learning/language/toefl|toefl]]
+[[catalog/learning/language/eng|eng]]
 
 ## Vocabulary
 ### Part 1

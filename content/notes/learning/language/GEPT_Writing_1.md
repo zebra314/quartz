@@ -8,7 +8,7 @@ enableToc: true
 > Soft skills 
 
 ## Instruction :
-![[images/english/GEPT_Writing_1.jpg]]
+![](images/english/GEPT_Writing_1.jpg)
 
 > Expertise =  
 > mechanic engineering, technical knowledge and skills… 
@@ -33,4 +33,4 @@ enableToc: true
 > Talking to the soft skill I hope to develop the most, it is the skill of time management. Before the project starts, we normally divide the project into many small part, priortize the tasks and assign them into the schedule, then we will follow the timeline and do our best to complete the project on time. With well time management, we could know what to do at the moment and be able to handle any accident calmly. 
 
 ## Revision :
-![[images/english/GEPT_Writing_1_a.jpg]]   
+![](images/english/GEPT_Writing_1_a.jpg)   

@@ -7,9 +7,9 @@ enableToc: true
 ## Topic : 
 
 ## Instruction :
-![[images/english/TOEFL_Integrated_Writing_1_1.jpg]]    
+![](images/english/TOEFL_Integrated_Writing_1_1.jpg)    
 
-![[images/english/TOEFL_Integrated_Writing_1_2.jpg]]    
+![](images/english/TOEFL_Integrated_Writing_1_2.jpg)    
 ## Content : 
 
 ## Revision :

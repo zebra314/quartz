@@ -18,4 +18,4 @@ enableToc: true
 > In my opinion,  technology helps children gain more ideas and become more creative than they were in the past.  
 
 ## Revision :
-![[images/english/TOEFL_Independent_Writing_1_a.jpg]]
+![](images/english/TOEFL_Independent_Writing_1_a.jpg)

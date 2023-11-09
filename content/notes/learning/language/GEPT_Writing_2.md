@@ -8,7 +8,7 @@ enableToc: true
 > Addiction
 
 ## Instruction :
-![[images/english/GEPT_Writing_2.jpg]]   
+![](images/english/GEPT_Writing_2.jpg)   
 1. what is addiction? How will addiction affect our behavior? Feel relax happy excited 
 2. how we become addited to smartphones? Games and social media 
 3. technology has already become a part of our life, find a balance between the internet world and the reality is an important issue for modern people…
@@ -21,4 +21,4 @@ enableToc: true
 > Smartphone technology has already become a part of our life, finding a balance between the internet world and the reality is an important issue for modern people. When using properly, it would be a great tool for learning and entertainment, and on the other hand, when we rely on and stick to it too much, the addiction may ruin our life.
 
 ## Revision :
-![[images/english/GEPT_Writing_2_a.jpg]]   
+![](images/english/GEPT_Writing_2_a.jpg)   

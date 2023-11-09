@@ -8,7 +8,7 @@ enableToc: true
 > Climate change (Chinese-English Translation) 
 
 ## Instruction : 
-![[images/english/GEPT_Trans_1.jpg]]   
+![](images/english/GEPT_Trans_1.jpg)   
 > Frequency, intensity, greatly/ considerably increased, bring snow…, consecutive days of… urge, energy conservation,  
 >
 > Consumption vs. conservation n. 

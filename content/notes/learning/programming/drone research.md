@@ -155,8 +155,8 @@ search for how to build a drone
 
 ### components
 1. fly controller 
-![[images/old/Pasted image 20221023122759.png]]
-![[images/old/Pasted image 20221023123200.png]]
+![](images/old/Pasted image 20221023122759.png)
+![](images/old/Pasted image 20221023123200.png)
 
 why not perform stabilization on the flight computer?
 > The speed of the flight computer is not guaranteed constant and also it prone to freezing or crashing.
@@ -184,13 +184,13 @@ why not perform stabilization on the flight computer?
 7. optical flow (光流 用來在移動中辨識物體之類的)
  
 [四軸無人機project example](https://www.youtube.com/watch?v=2r0fX_8A8ms)
-![[images/old/Pasted image 20221023124740.png]]
-![[images/old/Pasted image 20221023125708.png]]
-![[images/old/Pasted image 20221023125811.png]]
-![[images/old/Pasted image 20221023132356.png]]
-![[images/old/Pasted image 20221023132437.png]]  
-![[images/old/Pasted image 20221023132609.png]]
-![[images/old/Pasted image 20221023132740.png]]
+![](images/old/Pasted image 20221023124740.png)
+![](images/old/Pasted image 20221023125708.png)
+![](images/old/Pasted image 20221023125811.png)
+![](images/old/Pasted image 20221023132356.png)
+![](images/old/Pasted image 20221023132437.png)  
+![](images/old/Pasted image 20221023132609.png)
+![](images/old/Pasted image 20221023132740.png)
 
 ## 2022/10/19 
 I found a youtuber recorded himself making drones to track himself , incredible

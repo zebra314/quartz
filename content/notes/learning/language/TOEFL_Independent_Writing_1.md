@@ -1,8 +1,8 @@
 ---
-title: TOEFL Writing 1-2
+title: TOEFL Independent Writing - 1
 enableToc: true
 ---
-[[catalog/learning/language/toefl|toefl]]
+[[catalog/learning/language/eng|eng]]
 
 ## Topic : 
 > Technology has made children less creative than they were in the past. 
@@ -18,3 +18,4 @@ enableToc: true
 > In my opinion,  technology helps children gain more ideas and become more creative than they were in the past.  
 
 ## Revision :
+![[images/english/TOEFL_Independent_Writing_1_a.jpg]]

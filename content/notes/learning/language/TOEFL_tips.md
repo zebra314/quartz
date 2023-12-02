@@ -32,12 +32,13 @@ enableToc: true
   > The second point the professor uses to cast doubt on the passage is that … However, the passage states that … , which is in sharp contrasts to the lecture.
   > 
   > Finally, the professor stated that … , differing from the statement of the passage. In other words … This directly contradicts what the reading passage indicates, because …
-- Conclusion : 重述大概的要點，不要加入body paragraph沒有討論的觀點
-  > e.g.-1 In conclusion, the professor clearly identifies the weaknesses in the reading passage… He claims that … , whereas the reading materials make point that …
+- ~~Conclusion : 重述大概的要點，不要加入body paragraph沒有討論的觀點~~
+  > ~~e.g.-1 In conclusion, the professor clearly identifies the weaknesses in the reading passage… He claims that … , whereas the reading materials make point that …~~
+
 ### 筆記
 ### 時間分配
 - 3 min for introduction
 - 5 ~ 10 min for body
-- 2 ~ 3 min for conclusion
+- ~~2 ~ 3 min for conclusion~~
 - 1 ~ 2 min for double check
 

@@ -77,10 +77,12 @@ enableToc: true
 - State your opnion with supporting details (2 ~ 3 sentences)
   > Personally, I believe that ... For example, ...
   > My personal belief is that ... For instance, ...
+  > Personally speaking, ... , ...
 
 - Acknowledge the point of view of others, explain why you disagree/agree with them
   > I understand ... concern over ..., but I believe he misses another critical point. ...
   > I totally agree with ... point about ..., and I would like to add that ...
+  > However, I have to admit that ... makes a good point. ...
 
 - Conclusion (1 sentence )
   > ...(reason), which is why I believe that ...(point)
@@ -89,3 +91,12 @@ enableToc: true
 - 2 min for reading
 - 7 min for writing
 - 1 min for double check
+
+
+## Remind
+> [!Warning] Avoid
+> - Using unfamiliar words
+> - Including outside information
+> - Copying what was stated
+> - Leave without double check
+> - Mixing up verb tenses

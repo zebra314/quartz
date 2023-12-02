@@ -36,9 +36,56 @@ enableToc: true
   > ~~e.g.-1 In conclusion, the professor clearly identifies the weaknesses in the reading passage… He claims that … , whereas the reading materials make point that …~~
 
 ### 筆記
+- 記下討論主題以及雙方對應的三個論點
+- 閱讀的部份記關鍵字就好, 作答時還看得到文章
+- 聽力正在播放時, 盡量詳細記下關鍵字, 播完後再補上一些細節
+
 ### 時間分配
 - 3 min for introduction
 - 5 ~ 10 min for body
 - ~~2 ~ 3 min for conclusion~~
 - 1 ~ 2 min for double check
 
+## Academic Writing
+###  流程
+- 10 min for writing
+- 寫出對於教授問題的看法，並回應其他同學的意見，提出新的意見
+  - Build on the idea that have been mentioned
+  - Decide whether you agree or disagree with the statement
+  - Give specific reasons and examples to support your opinion
+- 150 ~ 200字
+
+### Structure - 1
+- Response to classmate and State your opnion (2 sentences)
+  > e.g.-1 ... mentions ... However, I personally believe that ... because ...
+  > e.g.-2 ... mentions ... I agree with this idea, but I would like to add that ...
+  > e.g.-3 While I agree with ... about ... , I would like to add that ...
+  > e.g.-4 Thought ... has a good point that ..., another key factor to consider is ...
+
+- Supporting details (2 ~ 3 sentences)
+- Example (2 ~ 3 sentences)
+- Conclusion (1 sentence )
+  > e.g. Hence, ...
+
+### Structure - 2
+- General statement (1 sentence)
+  > Everyone has different opinions about ...
+  > Nowadays, most people agree that ...
+  > Recently, there has been a debate as to ...
+  > The topic of ... has generated much disdcussion in recent years.
+
+- State your opnion with supporting details (2 ~ 3 sentences)
+  > Personally, I believe that ... For example, ...
+  > My personal belief is that ... For instance, ...
+
+- Acknowledge the point of view of others, explain why you disagree/agree with them
+  > I understand ... concern over ..., but I believe he misses another critical point. ...
+  > I totally agree with ... point about ..., and I would like to add that ...
+
+- Conclusion (1 sentence )
+  > ...(reason), which is why I believe that ...(point)
+
+### Time allocation
+- 2 min for reading
+- 7 min for writing
+- 1 min for double check

@@ -20,7 +20,7 @@ First, the author states that there are many pollution sources along the shore, 
 In conclusion, the author supports the pollution hypothesis using the example of the pollution source, the decline of many species and the nature factors associated with the uneven decline rate in different areas. The professor support the predation hypothesis, she disagrees the reading passage by stating that some phenomenon can be explain by the orca ‘s diet and habit, and the most important, none any dead otter was found.
 
 ## Revision
-###　Tom
+### Tom
 The author of the passage believed that chemical pollution is the main cause of the decline in sea otters, while the professor in the lecture holds the opposing view that predation is the main cause. 
 
 First, the reading states that the pollution could cause the deaths of sea otters. However, the professor argues that no dead sea otters have been found on the shore, and it is more likely that the otters were hunted by predators. 

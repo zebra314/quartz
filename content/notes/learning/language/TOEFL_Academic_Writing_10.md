@@ -2,7 +2,8 @@
 title: TOEFL Academic Writing - 10
 enableToc: true
 ---
-[[catalog/learning/language/eng|eng]]
+[[catalog/learning/language/eng|eng]]&
+[[catalog/learning/language/toefl|toefl]]   
 
 ## Topic
 If governments of some countries want to attract more people to live in rural areas or villages, what is the best strategy or approach that governments can use? Why?

@@ -2,7 +2,8 @@
 title: TOEFL Integrated Writing template
 enableToc: true
 ---
-[[catalog/learning/language/eng|eng]]
+[[catalog/learning/language/eng|eng]]&
+[[catalog/learning/language/toefl|toefl]]   
 
 ## Integrated Writing
 ### Structure - 1

@@ -2,7 +2,8 @@
 title: TOEFL Integrated Writing - 9
 enableToc: true
 ---
-[[catalog/learning/language/eng|eng]]
+[[catalog/learning/language/eng|eng]]&
+[[catalog/learning/language/toefl|toefl]]   
 
 ## Topic
 The methods to prevent the frogs from declining

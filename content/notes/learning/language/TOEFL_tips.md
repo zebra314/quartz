@@ -2,7 +2,8 @@
 title: TOEFL tips
 enableToc: true
 ---
-[[catalog/learning/language/eng|eng]]
+[[catalog/learning/language/eng|eng]]&
+[[catalog/learning/language/toefl|toefl]]   
 
 ## Integrated Writing
 ###  流程

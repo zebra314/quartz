@@ -19,7 +19,16 @@ First, the author states that there are many pollution sources along the shore, 
 
 In conclusion, the author supports the pollution hypothesis using the example of the pollution source, the decline of many species and the nature factors associated with the uneven decline rate in different areas. The professor support the predation hypothesis, she disagrees the reading passage by stating that some phenomenon can be explain by the orca ‘s diet and habit, and the most important, none any dead otter was found.
 
-## Revision :
+## Revision
+###　Tom
+The author of the passage believed that chemical pollution is the main cause of the decline in sea otters, while the professor in the lecture holds the opposing view that predation is the main cause. 
+
+First, the reading states that the pollution could cause the deaths of sea otters. However, the professor argues that no dead sea otters have been found on the shore, and it is more likely that the otters were hunted by predators. 
+
+Second, the author believes that the pollution hypothesis is a better explanation for the decline of sea otter population because pollution affects the entire ecosystem in the area while orcas only hunt much larger prey, such as whales. The lecturer contradicts the idea by indicating that the predator orca has started hunting smaller prey, such as otters, seals, and sea lions because there are fewer whales, which are orca’s preferred prey.  
+
+Third, the reading indicates the uneven concentration of pollutants caused by environmental factors or ocean currents resulted in the uneven decline rate of otters in different areas. This view again seems consistent with the pollution theory. However, the uneven pattern of sea otter decline can be explained by the fact that if the locations where sea otters live are not accessible to orcas, the otter population in such location remains steady whereas the accessible areas experience decline.  
+
 ### Chatgpt
 The author of the passage ==posits that== chemical pollution is the primary factor contributing to the decline of sea otters, while the professor in the lecture ==presents a contrasting view==, ==asserting== that predation is the main cause.
 

@@ -2,7 +2,8 @@
 title: TOEFL Independent Writing - 1
 enableToc: true
 ---
-[[catalog/learning/language/eng|eng]]
+[[catalog/learning/language/eng|eng]]&
+[[catalog/learning/language/toefl|toefl]]   
 
 ## Topic
 Technology has made children less creative than they were in the past. 

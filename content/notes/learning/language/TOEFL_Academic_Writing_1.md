@@ -9,7 +9,8 @@ enableToc: true
 If governments of some countries want to attract more people to live in rural areas or villages, what is the best strategy or approach that governments can use? Why?
 
 ## Instruction
-![](images/english/TOEFL_Academic_Writing_1.png)
+![](images/english/TOEFL_Academic_Writing_1.png)   
+[Online judge - 1](https://ibt2-toefl-pt.ets.org/dg?code=A01&_gl=1*vsbafs*_gcl_au*ODQ2Mjc5MjE0LjE2ODEyMTE0MzU.*_ga*MTE4NTQ1NjgxNi4xNjgxMjExNDM1*_ga_T2TH8KSGFZ*MTY4NTA5MjM1NS41LjAuMTY4NTA5MjM1NS42MC4wLjA.&_ga=2.45257252.181538343.1685082710-1185456816.1681211435)
 
 ## Content
 The topic of whether to live in urban area or rural area has generated much discussion in recent years. In my opnion, most of the people choose to live in urban area, because of the convenience of tansportation, entertainment, education, medication and so on. To attract people to move to urban area, I suggest the government should develops some functions that can only be provided by the rural area, such as the nutural scene, fresh air, and the quiet enviroment. I understand Kelly that the government should focus on increasing the business opportunity and the convenience of entertainment to attract poeple, but I think it would turn the rural area into a urban area, and lose it originatility and the adavantage of nature.

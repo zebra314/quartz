@@ -9,7 +9,8 @@ enableToc: true
 Which approach do you think is better: Giving grades based only on performance, or grading students not just on performance but also their effort?
 
 ## Instruction
-![](images/english/TOEFL_Academic_Writing_2.png)
+![](images/english/TOEFL_Academic_Writing_2.png)   
+[Online judge - 2](https://ibt2-toefl-pt.ets.org/dg?code=A02&_gl=1*f4ga7y*_gcl_au*ODQ2Mjc5MjE0LjE2ODEyMTE0MzU.*_ga*MTE4NTQ1NjgxNi4xNjgxMjExNDM1*_ga_T2TH8KSGFZ*MTY4NTA5MjM1NS41LjAuMTY4NTA5MjQwNi45LjAuMA..&_ga=2.58235178.181538343.1685082710-1185456816.1681211435)
 
 ## Content
 Kelly mentions that the grades should not be judged base on the effort, but solely base the final result. Although it is a relative fair approach, I think teacher should take how much effort the student paid into consideration when grading. After all, the purpose of education is to help student to learn knowledge and improve themselves in certain expertise. The score is only used to evaluate the student's performance, and it is not the ultimate goal. It is reasonable to take the effort into consideration, because work hard is also an important part of learning. Besides, giving the extra points to the student who work hard will encourage them to be more enthusiastic toward the lesson, and won't depressed by the score.

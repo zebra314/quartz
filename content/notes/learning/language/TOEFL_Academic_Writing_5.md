@@ -16,8 +16,8 @@ Parks and other green spaces with trees and plants have numerous benefits for pe
 The green space has serval benifits for the cities, such as freshing the air, providing a space for people to relax, and served as a habitat for birds and squarrels to live. Personally speaking, I think the number of fundamental facilities, sunch as hospital and clinics, should be comtemplated before the city was built. Therefore, the city should be capatable of providing the essentail aspect of living when people begining to aware that the natural element is also an important part of the city. Claire also raise an crucial point about the issue, the government doesn't need an entire new space to build the green space, make the use of space to be effective is also imortant. 
 
 In summary, the green space is a necessary part of the city, and the concern about the amount of fundamental facilities is secondary.
+> 4
 
 ## Revision
-
 Parks and green spaces bring vital benefits to cities, such as improved air quality and recreational areas. However, when deciding on urban land use, prioritizing essential facilities like hospitals is crucial. Cities must provide fundamental living aspects, acknowledging the importance of natural elements. Claire emphasizes the need for efficient space use, indicating that new areas aren't always necessary for green spaces. In essence, while green spaces are essential, prioritizing fundamental facilities remains paramount.
 

@@ -14,6 +14,11 @@ Do you think it’s a good idea for very young children to play educational comp
 
 ## Content
 
+In my opnion, I don't want my children to use 3C product to learn when they are too young. I agree that educational games can help people to learn, but for the age of 2 to 8, the blue light emmits from the screen may hurt their eyes and the usage of 3C product also increase the possibility for children to be nearsighted since their body are not mature in the age. Also, it is hard for children to resist themselves  from what directly make them happy. This increase the possibility for them to addict to the computer world.
+
+Andrew raise a crucial point that there are many alternative ways to educate children, such as reading book or interact with them, why take an approach that may hurt the children to educate them?
+
+> 4
 
 ## Revision
 

@@ -14,6 +14,11 @@ Some managers argue that ongoing employee training is the most important investm
 
 ## Content
 
+Personally speaking, I think the company should provide the training for employees. Because the enployees often have a relative general ability, while their target is on a more specific field. For example, software engineers may know how many computer languages, however what the client want is a certain type of website with specific function. It is better for both company and its employees to aquire the ability that using their general ability to build their product and meet the client's request.
+
+Kelly also raise an important aspect about this issue, a more powerful employer will be valued by their boss, and thus increase their relationship. In a nutshell, it is benifitcial for company to provide skill training for their employees.
+
+> 4
 
 ## Revision
 

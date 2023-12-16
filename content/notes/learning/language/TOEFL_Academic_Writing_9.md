@@ -15,6 +15,16 @@ Let’s focus now on two proposals that governments can consider as they try to 
 
 ## Content
 
+Both two methods can help reducing the pollution results from the emission of carbon dioxide. Paul raises a crucial point that the electric is the long term solution because the public transportation has the limit range of the destination. I agree with Paul that people indeed need their own vechile to go where they want, and personally, I think the public transportation is more suitable for the daily commuting. Take my personal experience for example, when I take bus to go to school every morning, it always crowdy and busy, and sometimes delayed. For those who want to go on vacation, the tansportation seems to be unconvenient.
+
+Therefor providing the finicial support for buying the electrical car is the long term solution for the carbon dioxide pollution.
 
 ## Revision
+
+
+Both methods can help reduce pollution resulting from carbon dioxide emissions. Paul raises a crucial point that electric vehicles are a long-term solution because public transportation has limitations regarding destination range. I agree with Paul; people do need their own vehicles for personal flexibility. Personally, I think public transportation is more suitable for daily commuting. Taking my personal experience as an example, when I take the bus to school every morning, it is often crowded, busy, and sometimes delayed. For those wanting to go on vacation, transportation can be inconvenient.
+
+Therefore, providing financial support for buying electric cars is a long-term solution to carbon dioxide pollution.
+
+
 

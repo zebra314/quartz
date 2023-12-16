@@ -3,9 +3,10 @@ title: TOEFL Academic Writing - 7
 enableToc: true
 ---
 [[catalog/learning/language/eng|eng]]&
-[[catalog/learning/language/toefl|toefl]]   
+[[catalog/learning/language/toefl|toefl]]
 
 ## Topic
+
 Do you think it’s a good idea for very young children to play educational computer games? Why or why not?
 
 ## Instruction

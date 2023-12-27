@@ -144,7 +144,9 @@ at long last
 finally , after much waiting
 get to</description></item><item><title>YoloV5</title><link>https://zebra314.github.io/quartz/notes/learning/programming/Yolov5/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://zebra314.github.io/quartz/notes/learning/programming/Yolov5/</guid><description>[[catalog/learning/programming/python|python]]
 Using YOLOv5 Model for Object Detection with OpenCV yolov5 label the images
-train the yolov5 model in google colab</description></item><item><title>太空科技與工程 學分學程</title><link>https://zebra314.github.io/quartz/notes/learning/%E5%A4%AA%E7%A9%BA%E7%A7%91%E6%8A%80%E8%88%87%E5%B7%A5%E7%A8%8B-%E5%AD%B8%E5%88%86%E5%AD%B8%E7%A8%8B/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://zebra314.github.io/quartz/notes/learning/%E5%A4%AA%E7%A9%BA%E7%A7%91%E6%8A%80%E8%88%87%E5%B7%A5%E7%A8%8B-%E5%AD%B8%E5%88%86%E5%AD%B8%E7%A8%8B/</guid><description>[[catalog/learning/academic|academic]]
+train the yolov5 model in google colab</description></item><item><title>固力實驗（一）</title><link>https://zebra314.github.io/quartz/notes/learning/%E5%9B%BA%E5%8A%9B%E5%AF%A6%E9%A9%97%E4%B8%80/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://zebra314.github.io/quartz/notes/learning/%E5%9B%BA%E5%8A%9B%E5%AF%A6%E9%A9%97%E4%B8%80/</guid><description>[[catalog/learning/academic|academic]]
+吸音 荷姆霍茲共振器 當空腔體的自然頻率與外界音波的頻率一樣時會產生共振，頸柱空氣為了克服管壁之摩擦力而消耗聲音的能量，達到吸音與降低音量的效果。 支柱挫曲 柱子會有那些端點支撐的方式?不同支撐方式對挫屈強度有何影響?挫屈強度由大至小用圖列出。
+兩端皆銷接 $$ [ P_{cr} = \frac{\pi^2 EI}{\left(\frac{L}{r}\right)^2} ] $$</description></item><item><title>太空科技與工程 學分學程</title><link>https://zebra314.github.io/quartz/notes/learning/%E5%A4%AA%E7%A9%BA%E7%A7%91%E6%8A%80%E8%88%87%E5%B7%A5%E7%A8%8B-%E5%AD%B8%E5%88%86%E5%AD%B8%E7%A8%8B/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://zebra314.github.io/quartz/notes/learning/%E5%A4%AA%E7%A9%BA%E7%A7%91%E6%8A%80%E8%88%87%E5%B7%A5%E7%A8%8B-%E5%AD%B8%E5%88%86%E5%AD%B8%E7%A8%8B/</guid><description>[[catalog/learning/academic|academic]]
 書面申請 2022/9/15 完成書面申請
 我的必修科目表的年份有填錯(是110的 填成107)
 簽章: 先找系辦, 再找arrc辦公室, 最後交去教務處註冊組 9/9ex

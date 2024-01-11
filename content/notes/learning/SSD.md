@@ -1,0 +1,56 @@
+---
+title: SSD
+enableToc: true
+---
+[[catalog/learning/software|software]]   
+
+## Option
+- [Pchome - SAMSUNG 970 EVO Plus](https://24h.pchome.com.tw/prod/DRAH31-A9009SXGK?fq=/S/DRAO03)
+	- $1,799
+	- 1TB
+	- Gen 3x4
+	- 600TBW
+- [Pchome - MSI SPATIUM M371](https://24h.pchome.com.tw/prod/DRAHEY-A900FZBWB?fq=/S/DRAH9I)
+	- $2,090
+	- 2TB
+	- Gen 3x4
+	- 480TBW
+- [Pchome - Kingston NV2 2TB](https://24h.pchome.com.tw/prod/DRAH6Y-A900FXUTW?fq=/S/DRAH6Y)
+	- $2,399
+	- 2TB
+	- Gen 4x4
+	- QLC
+- [Micron Crucial P3](https://24h.pchome.com.tw/prod/DRAHC0-A900FLI3J?fq=/S/DRAH9I)
+	- $2,450
+	- 2TB
+	- Gen 3x4
+	- 150TBW
+ - [Pchome - KIOXIA Exceria Plus G2 SSD](https://24h.pchome.com.tw/prod/DRAH5Z-A900FAAZ5?fq=/S/DRAH9I)
+	 - $2,490
+	 - 2TB 
+	 - Gen 3x4
+	 - 800TBW
+- [Pchome - Acer Predator GM7000](https://24h.pchome.com.tw/prod/DRAHB9-A900G4G5L)
+	- $2,980
+	- 2TB
+	- Gen4x4
+	- 1300TBW
+- [Pchome - SAMSUNG 970 EVO Plus](https://24h.pchome.com.tw/prod/DRAH31-A900A3JNW)
+	- $3,299
+	- 2TB
+	- Gen 3x4
+	- 1200TBW
+- [Pchome - Micron Crucial P5 Plus](https://24h.pchome.com.tw/prod/DGAG12-A900BOGPX)
+	- $3,688
+	- 2TB
+	- Gen 4
+	- 
+- [Pchome - SAMSUNG 980 PRO](https://24h.pchome.com.tw/prod/DRAH31-A900B5Q1G)
+	- $3,699
+	- 2TB
+	- Gen 4x4
+	- 有韌體問題
+- [Pchome - Kingston KC3000](https://24h.pchome.com.tw/prod/DRAH6Y-A900C20IQ)
+	- $3,799
+	- 2TB
+	- Gen 4

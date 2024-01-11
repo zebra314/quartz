@@ -1,0 +1,115 @@
+---
+title: Exchange
+enableToc: false
+---
+[[catalog/plan/term|term]]
+
+## 學校
+
+- 芬蘭
+
+  - [于韋斯屈萊大學](https://oia-sys.nycu.edu.tw/outgoing/intro.school/intro/schoolSet/3124)
+
+- 瑞典
+
+  - [皇家理工學院 KTH](https://oia-sys.nycu.edu.tw/outgoing/intro.school/intro/schoolSet/2766)
+
+  - [查默斯理工大學 CTH](https://oia-sys.nycu.edu.tw/outgoing/intro.school/intro/schoolSet/2764)
+
+  - [林雪平大學](https://oia-sys.nycu.edu.tw/outgoing/intro.school/intro/schoolSet/2765)
+
+- 挪威
+
+  - [阿格德爾大學](https://oia-sys.nycu.edu.tw/outgoing/intro.school/intro/schoolSet/2760)
+
+- 丹麥
+
+  - [丹麥科技大學 DTU](https://oia-sys.nycu.edu.tw/outgoing/intro.school/intro/schoolSet/3128)
+    - [Course information for exchange students at DTU](https://www.dtu.dk/english/education/incoming-students/exchange/choosing-courses)
+    - [DTU Course Base](https://kurser.dtu.dk/search)
+
+- 德國
+
+  - [柏林工業大學 TU Berlin](https://oia-sys.nycu.edu.tw/outgoing/intro.school/intro/schoolSet/3139)
+    - [Course Guidance](https://www.tu.berlin/en/international/students-1/international-students/exchange-studies-at-tu-berlin/studying-at-tu-berlin/course-guidance)
+    - [前人的交換心得](https://oia.video.nchu.edu.tw/sysdata/doc/b/bf7bc45018af787b/pdf.pdf)
+    - 選修德文授課課程者，需具備德檢B2以上成績
+
+  - [阿亨工業大學](https://oia-sys.nycu.edu.tw/outgoing/intro.school/intro/schoolSet/3138)
+    - [前人的交換心得](https://eecs.ncku.edu.tw/var/file/20/1020/img/3949/269047481.pdf)
+
+  - [愛爾朗根-紐倫堡大學](https://oia-sys.nycu.edu.tw/outgoing/intro.school/intro/schoolSet/2787)
+    - TOEFL 90
+    - 只開給工學院
+
+  - [斯圖加特大學](https://oia-sys.nycu.edu.tw/outgoing/intro.school/intro/schoolSet/2784)
+
+  - [慕尼黑工業大學](https://oia-sys.nycu.edu.tw/outgoing/intro.school/intro/schoolSet/3206)
+    - 只開給電資學院
+
+  - [羅特林根大學](https://oia-sys.nycu.edu.tw/outgoing/intro.school/intro/schoolSet/2785)
+
+- 美國
+
+  - [紐約州立大學 石溪分校](https://oia-sys.nycu.edu.tw/outgoing/intro.school/intro/schoolSet/2828)
+
+  - [朱尼亞塔學院](https://oia-sys.nycu.edu.tw/outgoing/intro.school/intro/schoolSet/2817)
+
+  - [科羅拉多大學 波德分校](https://oia-sys.nycu.edu.tw/outgoing/intro.school/intro/schoolSet/2843)
+
+  - [伊利諾大學 香檳分校](https://oia-sys.nycu.edu.tw/outgoing/intro.school/intro/schoolSet/2855)
+    - 自費
+
+- 加拿大
+
+  - [蒙特婁理工學院](https://oia-sys.nycu.edu.tw/outgoing/intro.school/intro/schoolSet/2824)
+
+  - [里賈納大學](https://oia-sys.nycu.edu.tw/outgoing/intro.school/intro/schoolSet/2845)
+
+  - [高等工程技術學院](https://oia-sys.nycu.edu.tw/outgoing/intro.school/intro/schoolSet/2878)
+
+## 自願序
+
+1. 皇家理工學院 KTH
+2. 查默斯理工大學 CTH
+3. 丹麥科技大學 DTU
+4. (柏林工業大學 TU Berlin)
+5. (阿亨工業大學)
+
+- 最多可以填十個
+
+- 我想去北歐，且去一年，因為在網上看到許多去德國語言不合或受室友影響的案例，所以決定不填德國的學校。只去半年的話，德國其實不錯。
+
+## 申請
+
+- 113-1
+
+- [113學年度國立陽明交通大學出國交換學生計畫](https://oia.nycu.edu.tw/oia/ch/app/data/view?module=nycu0006&id=715&serno=ee7d2425-7066-425b-8a73-0417527d2a08)
+
+- [申請系統說明](https://www.canva.com/design/DAFAWq7odug/9feh4ndHcVf8gGkoX8ufhQ/view)
+
+- [常見問題集](https://csdrive.cs.nctu.edu.tw/release/cf22152a-a025-4d32-8e00-88502249fb40)
+
+- [德國申請 流程參考](https://medium.com/%E5%BE%B7%E5%9C%8B%E9%AC%BC%E7%9A%84180%E5%A4%A9%E9%A4%8A%E6%88%90%E8%A8%88%E7%95%AB/exchange-%E4%BA%A4%E5%A4%A7%E4%BA%A4%E6%8F%9B%E5%AD%B8%E7%94%9F%E7%94%B3%E8%AB%8B-6457da8531d8)
+
+## 繳交資料
+
+- 中文歷年成績單（大學部，等第制精準排名成績單，須向註冊組申請）
+- 中文在學證明書
+- 研修計畫（針對第一志願撰寫，包含擬修課列表，無特殊格式）
+- 自傳（無特殊格式）
+- 語言能力證明
+- 其他有利審查文件 Other supporting documents
+- 簽核表 Confirmation form
+- 個人照
+- 部分姐妹校需特殊審查文件
+
+## 英文檢定
+
+- [[catalog/learning/language/toefl|My TOEFL preparation record]]
+
+- [補習班 Dcard](https://www.dcard.tw/f/studyabroad/p/226545033)
+
+- [TOEFL 準備資料 ptt](https://www.ptt.cc/bbs/TOEFL_iBT/M.1422944172.A.A35.html)
+
+- [檢定相關問題集](https://csdrive.cs.nctu.edu.tw/release/cf22152a-a025-4d32-8e00-88502249fb40)

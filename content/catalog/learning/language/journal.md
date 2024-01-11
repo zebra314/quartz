@@ -1,0 +1,4 @@
+---
+title: journal
+enableToc: false
+---

@@ -22,7 +22,7 @@ npx quartz build --serve
 - To deploy to GitHub Pages
 
 ```bash
-npx quartz sync
+npx quartz sync --no-pull
 
 ## Sponsors
 

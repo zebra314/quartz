@@ -11,6 +11,19 @@ Quartz v4 features a from-the-ground rewrite focusing on end-user extensibility 
 
 [Join the Discord Community](https://discord.gg/cRFFHYye7t)
 
+## Usage
+
+- To build and run the site locally
+
+```bash
+npx quartz build --serve
+```
+
+- To deploy to GitHub Pages
+
+```bash
+npx quartz sync
+
 ## Sponsors
 
 <p align="center">

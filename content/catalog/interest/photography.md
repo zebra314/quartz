@@ -1,0 +1,4 @@
+---
+title: photography
+enableToc: false
+---

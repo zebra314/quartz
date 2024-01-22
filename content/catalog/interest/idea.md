@@ -1,0 +1,4 @@
+---
+title: idea
+enableToc: false
+---

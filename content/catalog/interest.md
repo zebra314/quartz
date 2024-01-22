@@ -1,3 +1,8 @@
+---
+title: interest
+enableToc: false
+---
+
 [[catalog/interest/idea|idea]]
 
 [[catalog/interest/outdoor|outdoor]]

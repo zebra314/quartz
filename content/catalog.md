@@ -1,3 +1,7 @@
+---
+enableToc: false
+---
+
 [[catalog/interest|interest]]
 
 [[catalog/learning|learning]]

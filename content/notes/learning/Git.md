@@ -71,3 +71,17 @@ enableToc: true
 ## Log
 - Log ```git log --graph --pretty=oneline --abbrev-commit```
 - [Instruction - Git history](https://kejyuntw.gitbooks.io/git-learning-note/content/history/history-README.html)
+
+## Skip certain changed file at local repo
+
+- To prevent a tracked but changed file from appearing as changed in the Git status, use
+
+```bash
+git update-index --skip-worktree [<file> ...]
+```
+
+- To undo and start showing it as changed again:
+
+```bash
+git update-index --no-skip-worktree [<file> ...]
+```

@@ -1,8 +1,8 @@
 ---
-title: Exchange
+title: Apply for international exchange
 enableToc: false
 ---
-[[catalog/plan/term|term]]
+[[catalog/plan/term|term]] && [[catalog/learning/exchange|exchange]]
 
 ## 學校
 
@@ -84,6 +84,10 @@ enableToc: false
 
 - 113-1
 
+- 112/12/4 9:00 ~ 113/1/5 17:00 繳交申請資料
+
+- 113/1/19 15:00 公告申請結果
+
 - [113學年度國立陽明交通大學出國交換學生計畫](https://oia.nycu.edu.tw/oia/ch/app/data/view?module=nycu0006&id=715&serno=ee7d2425-7066-425b-8a73-0417527d2a08)
 
 - [申請系統說明](https://www.canva.com/design/DAFAWq7odug/9feh4ndHcVf8gGkoX8ufhQ/view)
@@ -97,6 +101,7 @@ enableToc: false
 - 中文歷年成績單（大學部，等第制精準排名成績單，須向註冊組申請）
 - 中文在學證明書
 - 研修計畫（針對第一志願撰寫，包含擬修課列表，無特殊格式）
+  - [[Study plan (KTH) for international exchange]]
 - 自傳（無特殊格式）
 - 語言能力證明
 - 其他有利審查文件 Other supporting documents

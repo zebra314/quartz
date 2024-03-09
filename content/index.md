@@ -7,7 +7,7 @@ enableToc: false
 
 I'm a Mechanical Engineering student at Chaio Tung University in Taiwan. I'm interested in robotics and programming, being able to build a robot from zero to one is the best thing in my life. Hoping to learn more about these fields and make some friends here in the future. If you have any questions or suggestions, please feel free to contact me.
 
-## [Catalog of the notes](catalog.md)
+## [Catalog of the notes (Click me)](catalog.md)
 
 ## Events
 

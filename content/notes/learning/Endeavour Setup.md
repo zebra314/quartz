@@ -136,3 +136,26 @@ sudo grub-mkconfig -o /boot/grub/grub.cfg
 ```
 
 - [Minegrub theme](https://github.com/Lxtharia/minegrub-theme)
+
+## Flathub
+
+```sh
+sudo pacman -S flatpak
+flatpak install flathub com.brave.Browser
+flatpak install flathub com.discordapp.Discord
+```
+
+## Disable kde wallet
+
+1. go to brave://flags
+2. search for flag `Enable Brave Wallet`
+3. change the value to disable
+4. 
+```sh
+cd .config/ && vim kwalletrc
+```
+5. add the following content
+```sh
+[Wallet]
+Enabled=false
+```

@@ -1,3 +1,7 @@
+---
+title: KDE setup
+---
+[[software]]
 
 ## IME
 

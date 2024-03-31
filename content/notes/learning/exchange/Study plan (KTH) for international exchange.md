@@ -6,6 +6,8 @@ enableToc: false
 
 ## Overview
 
+[Course selection for exchange students](https://www.kth.se/en/studies/exchange/general/courses/course-selection-for-exchange-students-1.455772?1=1)
+
 [CS bachelor's course](https://www.kth.se/en/studies/bachelor/information-communication-technology/courses-for-information-and-communication-technology-1.878076)
 
 [CS master's course](https://www.kth.se/en/studies/master/computer-science/courses-computer-science-1.502267)
@@ -59,3 +61,16 @@ enableToc: false
 5. 全民英檢中高級
 6. 書卷獎
 7. 出國交換說明會證明
+
+## Programme Syllabuses
+
+[All programme](https://www.kth.se/student/kurser/kurser-inom-program?l=en)
+
+[CS - Degree Programme in Computer Science and Engineering (CDATE)](https://www.kth.se/student/kurser/program/CDATE?l=en)
+
+## Language Courses
+
+[Credit-bearing courses in Swedish](https://www.kth.se/en/larande/sprak/utbildning/sprak/swe/poanggivande-kurser-i-svenska-1.824010)
+
+[Swedish - LS1502 Swedish A1 for Engineers 7.5 credits](https://www.kth.se/student/kurser/kurs/LS1502?l=en)
+8/1 ~ 8/24

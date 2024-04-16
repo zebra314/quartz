@@ -29,6 +29,11 @@ mkdir -p ~/.config/rofi/
 rofi -dump-xresources > ~/.config/rofi/config
 ```
 
+## Fonts
+
+```sh
+sudo pacman -S ttf-firacode-nerd ttf-fira-code
+```
 ## Zsh
 
 [zsh setup](https://medium.com/tech-notes-and-geek-stuff/install-zsh-on-arch-linux-manjaro-and-make-it-your-default-shell-b0098b756a7a)
@@ -39,7 +44,7 @@ sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 git clone https://github.com/agkozak/zsh-z $ZSH_CUSTOM/plugins/zsh-z
-yay -S --noconfirm zsh-theme-powerlevel10k-git
+	yay -S --noconfirm zsh-theme-powerlevel10k-git
 echo 'source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
 ```
 
@@ -63,4 +68,32 @@ npm i yargs
 
 ```sh
 yay -S visual-studio-code-bin
+```
+
+## Neovim
+
+```sh
+sudo pacman -S neovim
+git clone https://github.com/github/copilot.vim.git \
+  ~/.config/nvim/pack/github/start/copilot.vim
+```
+
+## TMUX
+
+
+[tmux plugin manager](https://github.com/tmux-plugins/tpm)
+[tmux catppuccin theme](https://github.com/catppuccin/tmux)
+
+```sh
+sudo pacman -S tmux
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+```
+
+## ROS env
+
+```sh
+yay -S miniconda3
+sudo ln -s /opt/miniconda3/etc/profile.d/conda.sh /etc/profile.d/conda.sh
+sudo chown -R $USER /opt/miniconda3
+conda config --set auto_activate_base false
 ```

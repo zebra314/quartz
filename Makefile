@@ -1,4 +1,4 @@
-all: build test push clean 
+all: build test clean 
 
 build:	
 	docker build -t quartz:latest --squash .

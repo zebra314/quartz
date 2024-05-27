@@ -10,8 +10,7 @@ test:
 		--ulimit nofile=1024:524288 \
 		--mount type=bind,source=$(shell pwd),target=/usr/src/app/ \
 		-v ~/.gitconfig:/etc/gitconfig \
-		-e ssh_prv_key="$(cat ~/.ssh/id_rsa)" \
-		-e ssh_pub_key="$(cat ~/.ssh/id_rsa.pub)" \
+		-v ~/.ssh:/root/.ssh \
 		quartz:latest
 
 push:

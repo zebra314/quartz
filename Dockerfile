@@ -12,8 +12,6 @@ COPY --from=builder /usr/src/app/ /usr/src/app/
 RUN apt-get update && apt-get install -y git
 RUN git config --global --add safe.directory /usr/src/app
 
-# Authorize SSH Host
+# Authorize SSH Host  
 RUN mkdir -p /root/.ssh && \
     chmod 0700 /root/.ssh
-
-CMD ["npx", "quartz", "build", "--serve"]

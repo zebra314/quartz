@@ -1,0 +1,172 @@
+{
+  "main": {
+    "id": "4b15957b5b6b79b4",
+    "type": "split",
+    "children": [
+      {
+        "id": "9ad4535f6af24342",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4584b9418a15a59a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/learning/Endeavour Setup.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "346558a02a8de766",
+    "type": "split",
+    "children": [
+      {
+        "id": "853c4cc951db11ca",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d23b74128cdcdc87",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a4d30f4388c9a770",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "nvidia",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "79474223a19fb7bd",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "64800433bf6a1f05",
+    "type": "split",
+    "children": [
+      {
+        "id": "f2a5ba2f116bcc7b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c04cd744b617a381",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "notes/learning/Endeavour Setup.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "dbbf0eedf56505fd",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "notes/learning/Endeavour Setup.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "70c2d3291da46931",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "abddda3db03c1ad1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "notes/learning/Endeavour Setup.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "4584b9418a15a59a",
+  "lastOpenFiles": [
+    "notes/learning/KDE setup.md",
+    "notes/learning/Endeavour Setup.md",
+    "notes/learning/programming/GPE info.md",
+    "notes/learning/exchange/交換流程.md",
+    "notes/learning/exchange/Study plan (KTH) for international exchange.md",
+    "notes/learning/exchange/Apply for international exchange.md",
+    "notes/learning/exchange/行程安排.md",
+    "notes/learning/exchange/簽證申請.md",
+    "notes/learning/exchange/機票.md",
+    "notes/learning/exchange/保險.md",
+    "notes/learning/New python project.md",
+    "Makefile.md",
+    "notes/learning/Git.md",
+    "notes/learning/TMUX.md",
+    "notes/learning/programming/Itron 教學內容.md",
+    "notes/learning/Discord bot.md",
+    "notes/learning/Bash.md",
+    "notes/learning/Ubuntu Setup.md",
+    "notes/learning/programming/PX4 仿真.md"
+  ]
+}

@@ -1,7 +1,7 @@
-all: build test clean push
+all: build test push clean 
 
 build:	
-	docker build -t quartz:latest .
+	docker build -t quartz:latest --squash .
 
 test:
 	docker run --rm -it \
@@ -10,6 +10,8 @@ test:
 		--ulimit nofile=1024:524288 \
 		--mount type=bind,source=$(shell pwd),target=/usr/src/app/ \
 		-v ~/.gitconfig:/etc/gitconfig \
+		-e ssh_prv_key="$(cat ~/.ssh/id_rsa)" \
+		-e ssh_pub_key="$(cat ~/.ssh/id_rsa.pub)" \
 		quartz:latest
 
 push:

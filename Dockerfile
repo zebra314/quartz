@@ -4,20 +4,22 @@ COPY package.json .
 COPY package-lock.json* .
 RUN npm ci
 
-# # list all the repositories that are tracked
-# RUN git remote -v
- 
-# # if the origin doesn't match your own repository, set your repository as the origin
-# git remote set-url origin REMOTE-URL  
- 
-# # if you don't have upstream as a remote, add it so updates work
-# git remote add upstream https://github.com/jackyzha0/quartz.git
-
 FROM node:20-slim
 WORKDIR /usr/src/app
 COPY --from=builder /usr/src/app/ /usr/src/app/
 
+# Install git 
 RUN apt-get update && apt-get install -y git
 RUN git config --global --add safe.directory /usr/src/app
+
+# Authorize SSH Host
+RUN mkdir -p /root/.ssh && \
+    chmod 0700 /root/.ssh
+
+# Add the keys and set permissions
+RUN echo "$ssh_prv_key" > /root/.ssh/id_rsa && \
+    echo "$ssh_pub_key" > /root/.ssh/id_rsa.pub && \
+    chmod 600 /root/.ssh/id_rsa && \
+    chmod 600 /root/.ssh/id_rsa.pub
 
 CMD ["npx", "quartz", "build", "--serve"]

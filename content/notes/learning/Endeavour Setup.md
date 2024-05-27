@@ -48,7 +48,7 @@ chezmoi re-add $File # Re-add the file to source directory
 
 - [Tutorial - Toggle GPU](https://ivonblog.com/posts/linux-envycontrol-turn-off-nvidia-gpu/)
 
-- [Tutorial - Toggle GPU using prime](https://ivonblog.com/posts/linux-nvidia-prime/)
+		- [Tutorial - Toggle GPU using prime](https://ivonblog.com/posts/linux-nvidia-prime/)
 
 ## Setup cursor theme
 

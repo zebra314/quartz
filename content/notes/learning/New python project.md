@@ -9,13 +9,15 @@ enableToc: true
 First, we create and activate the virtual environment before installing the required packages.
 
 ```python
-python3 -m venv venv # Create
+
+python3 -m venv myvenv # Create
 source venv/bin/activate # Activate
 ```
 
 Once we have installed the required packages in the virtual environment for this project, we can generate the `requirements.txt`.
 
 ```python
+
 pip freeze > requirements.txt
 ```
 
@@ -39,3 +41,4 @@ pip install -r requirements.txt # Install
 
 > [!WARNING] Warning:  
 > Normally, we would not commit the virtual environment to the repository. We would add it to `.gitignore` instead.
+> 

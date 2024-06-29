@@ -1,4 +1,4 @@
-all: build test clean
+all: build test
 
 build:
 	docker build -t quartz:latest --squash .
@@ -32,7 +32,6 @@ push:
 			quartz:latest \
 			npx quartz sync --no-pull; \
 	fi
-	make clean
 
 attach:
 	docker exec -it quartz /bin/bash

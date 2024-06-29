@@ -25,6 +25,12 @@ make
 make push
 ```
 
+- To clean up the build artifacts
+
+```bash
+make clean
+```
+
 ## Sponsors
 
 <p align="center">

@@ -9,7 +9,7 @@ let fileExists = await app.vault.adapter.exists(filePath);
 const item = await tp.system.prompt("Item");
 const price = await tp.system.prompt("Price");
 const type = await tp.system.suggester(["Food", "Transport", "Utilities", "Entertainment", "Other"], ["Food", "Transport", "Utilities", "Entertainment", "Other"]);
-const paymentMethod = await tp.system.suggester(["Credit Card", "Debit Card", "Cash", "Online Payment"], ["Credit Card", "Debit Card", "Cash", "Online Payment"]);
+const paymentMethod = await tp.system.suggester(["Credit Card", "Debit Card", "Cash"], ["Credit Card", "Debit Card", "Cash"]);  
 
 const content = `
 Item: ${item}

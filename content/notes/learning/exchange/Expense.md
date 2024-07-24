@@ -34,7 +34,7 @@ const folderPath = `"notes/plans/expense"`;
 const pages = dv.pages(folderPath);
 
 // Define the period
-const startDate = new Date("2024-07-01"); // Start of the period
+const startDate = new Date("2024-08-01"); // Start of the period
 const endDate = new Date("2025-07-03"); // End of the period
 
 // Initialize variables
@@ -82,13 +82,17 @@ for (let page of pages) {
 // Display
 let tableData = [];
 resultMonths.forEach((expenses, yearMonth) => {
-  let rowData = { "Month": yearMonth };
-  expenses.forEach((total, type) => {
-    rowData[type] = total;
-  });
-  tableData.push(rowData);
-});
+  dv.header(2, yearMonth);
 
-dv.header(2, "Month Expenses");
+  let rowData = [];
+  let totalMonth = 0;
+  expenses.forEach((total, type) => {
+    totalMonth += total;
+    rowData.push([type, total]);
+  });
+  rowData.push(["Total", totalMonth]);
+  dv.table(["Type", "Price"], rowData);
+  dv.paragraph("---");
+});
 
 ```

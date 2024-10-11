@@ -49,3 +49,12 @@ x_2 &= \sqrt{ (D - P_x)^2 + P_y^2 } \\
 \theta_2 = \alpha_2 + \beta_2 &= \arctan \left( \frac{\frac{-64}{18} \sin(\arctan(\sqrt{T_y^2/T_x^2}) + \arccos(\frac{1}{16} (\frac{T_x^2 + T_y^2 - 260}{\sqrt{T_x^2 + T_y^2}}))) + 10 T_y}{8.16 - \frac{32}{9} \cos(\arctan(\sqrt{T_y^2/T_x^2})+\arccos(\frac{1}{16} (\frac{T_x^2 + T_y^2 - 260}{\sqrt{T_x^2 + T_y^2}}))) - \frac{5}{9} T_x} \right) \\ &+ \arccos \left( \frac{\frac{1}{16} (\left(8.16 - \frac{32}{9} \cos(\arctan(\sqrt{T_y^2/T_x^2}) + \arccos(\frac{1}{16} (\frac{T_x^2 + T_y^2 - 260}{\sqrt{T_x^2 + T_y^2}}))) - \frac{5}{9} T_x\right)^2 + \frac{-64}{324} \sin(\arctan(\sqrt{T_y^2/T_x^2}) + \arccos(\frac{1}{16} (\frac{T_x^2 + T_y^2 - 260}{\sqrt{T_x^2 + T_y^2}})) + 10 T_y)^2 - 105}{\sqrt{\left(8.16 - \frac{32}{9} \cos(\arctan(\sqrt{T_y^2/T_x^2}) + \arccos(\frac{1}{16} (\frac{T_x^2 + T_y^2 - 260}{\sqrt{T_x^2 + T_y^2}}))) - \frac{5}{9} T_x\right)^2 + \frac{-64}{324} \sin(\arctan(\sqrt{T_y^2/T_x^2}) + \arccos(\frac{1}{16} (\frac{T_x^2 + T_y^2 - 260}{\sqrt{T_x^2 + T_y^2}})) + 10 T_y)^2}} \right) \\
 \end{align*}$$
 > kind of scary...This function is only for demonstration, I'm not going to use it in c++ programming, but break down the steps and store the values into variables instead.
+
+## Route control
+
+- PID
+- Stanley Controller
+- Pure Pursuit Algorithm
+- MPC (Model Predictive Control)
+- LQR (Linear Quadratic Regulator)
+- DWA (Dynamic Window Approach)

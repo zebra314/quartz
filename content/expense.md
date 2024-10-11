@@ -24,6 +24,7 @@ let totalMonth_other = 0;
 let totalMonth_creditCard = 0;
 let totalMonth_debitCard = 0;
 let totalMonth_cash = 0;
+let totalMonth_travel = 0;
 let creditCard = 0;
 let debitCard = 0;
 let cash = 0;
@@ -50,7 +51,7 @@ for (let page of pages) {
       const rawInfo = line.substring(5).split(", ");
       const [item, price, type, method] = rawInfo;
 
-      if (day === today) {
+      if (day === today && month === currentMonth) {
         resultToday.push([item, price, type, method]);
         totalToday += parseInt(price);
       }
@@ -71,6 +72,9 @@ for (let page of pages) {
           break;
         case "Entertainment":
           totalMonth_entertainment += parseInt(price);
+          break;
+        case "Travel":
+          totalMonth_travel += parseInt(price);
           break;
         case "Other":
           totalMonth_other += parseInt(price);
@@ -94,13 +98,14 @@ for (let page of pages) {
   }
 }
 
-totalMonth = totalMonth_food + totalMonth_transport + totalMonth_utilities + totalMonth_entertainment + totalMonth_other;
+totalMonth = totalMonth_food + totalMonth_transport + totalMonth_utilities + totalMonth_entertainment + totalMonth_travel + totalMonth_other;
 
 let resultType = [
   ["Food", totalMonth_food],
   ["Transport", totalMonth_transport],
   ["Utilities", totalMonth_utilities],
   ["Entertainment", totalMonth_entertainment],
+  ["Travel", totalMonth_travel],
   ["Other", totalMonth_other]
 ];
 

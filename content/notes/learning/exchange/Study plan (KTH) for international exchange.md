@@ -2,7 +2,7 @@
 title: Study plan (KTH) for international exchange
 enableToc: false
 ---
-[[catalog/plan/term|term]] && [[catalog/learning/exchange|exchange]]
+	[[catalog/plan/term|term]] && [[catalog/learning/exchange|exchange]]
 
 ## Limits
 

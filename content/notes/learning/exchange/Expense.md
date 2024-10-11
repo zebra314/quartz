@@ -2,11 +2,14 @@
 title: Expense
 enableToc: false
 ---
+
 [[catalog/learning/exchange|exchange]]
 
 ## 行前花費
 
-- 機票：29428 NT
+- 機票：
+    - 臺灣到瑞典：29428 NT
+    - 瑞典、丹麥來回：3345 NT
 - 衣物：6948 NT
 - 證件：
 	- 簽證：4511 NT (1500 SEK)
@@ -21,7 +24,9 @@ enableToc: false
 	- 保溫杯：980 NT
 	- 快煮鍋：1380 NT
 	- 保溫瓶：1024 NT
-- 中華電信：(違約金＋月付)
+- 藥：850（300掛號費、550普拿疼）
+- 中華電信：1525 (違約金＋月付)
+- 總共：70168 NT
 
 ## 各月花費
 
@@ -52,7 +57,7 @@ let currentDate = startDate;
 while (currentDate <= endDate) {
   const yearMonth = `${currentDate.getFullYear()}-${String(currentDate.getMonth() + 1).padStart(2, '0')}`;
   
-  let resultMonth = new Map([["Food", 0], ["Transport", 0], ["Utilities", 0], ["Entertainment", 0], ["Other", 0]]);
+  let resultMonth = new Map([["Food", 0], ["Transport", 0], ["Utilities", 0], ["Entertainment", 0], ["Travel", 0], ["Other", 0]]);
 
   resultMonths.set(yearMonth, resultMonth);
   currentDate = nextMonth(currentDate);

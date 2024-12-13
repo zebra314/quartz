@@ -1,3 +1,5 @@
+[[swe]]
+
 - Vad har du pa dig idag? 
 - Jag har på mig en vit jacka, en blå T-shirt och svarta byxor.
 

@@ -2,7 +2,7 @@
 title: Study plan (KTH) for international exchange
 enableToc: false
 ---
-	[[catalog/plan/term|term]] && [[catalog/learning/exchange|exchange]]
+[[catalog/plan/term|term]] && [[catalog/learning/exchange|exchange]]
 
 ## Limits
 
@@ -91,7 +91,7 @@ Total: (3.5 + 7.5 + 7.5) + (4 + 6) = 28
 
 ## Selected Spring Lessons
 
-Total: 7.5 + 6 + 9  = 22.5
+Total: (7.5 + 4.5) + (4.5 + 6)   = 22.5
 
 [DD1420 Foundations of Machine Learning 7.5 credits](https://www.kth.se/student/kurser/kurs/DD1420?startterm=20251&l=en)
 - Period: 3 (1/14 ~ 3/16)
@@ -101,6 +101,36 @@ Total: 7.5 + 6 + 9  = 22.5
 	- INL1 - Assignment, 3.0 credits, grading scale: A, B, C, D, E, FX, F
 	- PRO1 - Project work, 1.5 credits, grading scale: P, F
 	- TES1 - Quizzes, 3.0 credits, grading scale: A, B, C, D, E, FX, F
+	- [Lecture note](https://dd1420.notion.site/DD1420-Lecture-Notes-b555e017345a4119950ce8fd67133275)
+
+[DM2585 Artificial Intelligence in Society 9.0 credits](https://www.kth.se/student/kurser/kurs/DM2585?startterm=20251&l=en)
+- P3 (4.5 hp), P4 (4.5 hp)
+- Application code: 20027
+- Form of study
+	- Distance Daytime
+- Examination
+	- LIT1 - Literature study, 3.0 credits, grading scale: P, F
+	- RAP1 - Report, 3.0 credits, grading scale: P, F
+	- SEM1 - Seminars, 3.0 credits, grading scale: P, F
+
+[DH2323 Computer Graphics and Interaction 6.0 credits](https://www.kth.se/student/kurser/kurs/DH2323?startterm=20251&l=en)
+- Period: 4
+- Application code: 60264
+- KTH Campus
+- Examination
+	- LABA - Laboratory work, 3.0 credits, grading scale: P, F
+	- PROA - Project, 3.0 credits, grading scale: A, B, C, D, E, FX, F
+
+## Not Selected
+
+[SF2940 - Probability Theory 7.5 credits](https://www.kth.se/student/kurser/kurs/SF2940?l=en)
+- Period: 1 (8/26 ~ 10/27)
+- Application code: 50254
+- KTH Campus
+
+[DD2419 - Project Course in Robotics and Autonomous Systems 9.0 credits](https://www.kth.se/student/kurser/kurs/DD2419?l=en)
+- Period: 3, 4
+- 這堂課佔兩個period，交大又規定一個學期要修三堂課，如果加上這堂loading會變成四堂課，先放棄
 
 [EF2262 Data Handling Systems for Satellites 6.0 credits](https://www.kth.se/student/kurser/kurs/EF2262?l=en)
 - Period: 3 (1/14 ~ 3/16)
@@ -119,21 +149,19 @@ Total: 7.5 + 6 + 9  = 22.5
 	- PRO1 - Assignments with Oral Presentation, 4.0 credits, grading scale: A, B, C, D, E, FX, F
 	- TEN1 - Oral Examination, 5.0 credits, grading scale: A, B, C, D, E, FX, F
 
-## Not Selected
-
-[SF2940 - Probability Theory 7.5 credits](https://www.kth.se/student/kurser/kurs/SF2940?l=en)
-- Period: 1 (8/26 ~ 10/27)
-- Application code: 50254
+[MF2094 Develop Creativity 3.0 credits](https://www.kth.se/student/kurser/kurs/MF2094?startterm=20251&l=en)
+- Period: 4
+- Application code: 60484
 - KTH Campus
-
-[DD2419 - Project Course in Robotics and Autonomous Systems 9.0 credits](https://www.kth.se/student/kurser/kurs/DD2419?l=en)
-- Period: 3, 4
-- 這堂課佔兩個period，交大又規定一個學期要修三堂課，如果加上這堂loading會變成四堂課，先放棄
+- Examination
+	- INL1 - Hand in exercise, 1.0 credits, grading scale: P, F
+	- PRO1 - Project, 2.0 credits, grading scale: P, F
 
 [SD1105 Matlab 3.0 credits](https://www.kth.se/student/kurser/kurs/SD1105?l=en)
-- Period: 2 (10/28 ~ 1/13)
+- Period: ~~2 (10/28~ 1/13)~~、3、~~4~~
 - Application code: 50269
 - KTH Campus
 - Examination
 	- TEN1 - Assignment, 3.0 credits, grading scale: P, F
 - 根據[這篇心得文](https://drive.google.com/file/d/18053yarTPAhlpl_4CAVphCix9Bo7actg/view)是自主學習，練習完題庫後向教授預約demo考試
+

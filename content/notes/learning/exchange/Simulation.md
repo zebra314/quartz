@@ -1,0 +1,12 @@
+- [Drake](https://drake.mit.edu/)
+	- Optimal control
+- Gazebo
+- Pybullet
+	- RL
+	-  easy to get up and running
+- mujoco
+	-  easy to get up and running
+- WeBots
+- Isaac gym
+	- RL
+- 

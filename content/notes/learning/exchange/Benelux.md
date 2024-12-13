@@ -1,4 +1,4 @@
-## 預訂
+## Reservation
 
 - [x] [Rail pass](https://www.klook.com/zh-TW/activity/9862-benelux-eurail-pass/)
 - [x] Bus between CRL and Charleroi Central
@@ -15,6 +15,10 @@
 - [x] Ticket of [The Hergé Museum](https://www.museeherge.be/en)
 - [ ] Tour ticket to Giethoorn
 
+超市 Albert Heijn
+Jumbo
+Dirk
+
 ## 花費
 
 - 機票: 38.45 eur
@@ -27,22 +31,26 @@
 
 ## 10/14, Amsterdam
 
-- [ ] Sweden --> Belgium
+- [x] Sweden --> Belgium
 	- Ryanair airplane
 	- 06:55 ~ 09:15
 	- ==38.45 eur==
-- [ ] CRL airport --> Charleroi Central
+- [x] CRL airport --> Charleroi Central
 	- Line A1 bus (TEC)
 	- (09:30 ~ 09:51), 10:00 ~ 10:17
+	- 09:30 ~ 09:51
 	- ==6 eur== (現場或線上買都可以)
 	- [Charleroi Line A1 time table](https://www.letec.be/Planning/Details/Line/A1%252520Charleroi%252520Gare%252520Centrale%252520-%252520Charleroi%252520Airport/CA1)
 	- [沙勒羅瓦-布魯塞爾南機場交通資訊](https://yeshappytravel.com/%E6%AF%94%E5%88%A9%E6%99%82%EF%BD%9C%E6%B2%99%E5%8B%92%E7%BE%85%E7%93%A6-%E5%B8%83%E9%AD%AF%E5%A1%9E%E7%88%BE%E5%8D%97%E6%A9%9F%E5%A0%B4%E4%BA%A4%E9%80%9A%E8%B3%87%E8%A8%8A/)
-- [ ] Charleroi Central --> Brussels Nord
+	- 先走到flinch的轉運站，在對面
+	- 車子都沒寫是A幾，要問司機
+- [x] Charleroi Central --> Brussels Nord
 	- ![[IMG_2199.jpeg|300]]
 	- SNCB Train, IC 4510
 	- 10:24 ~ 11:28
+	- IC 2009, 09:53 ~ 10:58
 	- ==14 eur== (Included in Benelux pass)
-- [ ] Brussels Nord --> Amsterdam Central
+- [x] Brussels Nord --> Amsterdam Central
 	- IC Direct, IC 9235
 	- 11:56 ~ 14:35
 	- ==39 eur== (Included in Benelux pass)
@@ -51,32 +59,34 @@
 - [ ] 阿姆斯特丹
 	- Royal Palace, 9 eur, 317 NTD with ISIC
 	- Dam Square、附近有很多教堂
-	- (閣樓上的吾主博物館, 10.95 eur, 386NTD with ISIC)
+	- ~~閣樓上的吾主博物館, 10.95 eur, 386NTD with ISIC~~
 	- Manneken Pis, fries
 	- 亂逛
-- [ ] Stay overnight at ClinkNOORD
+- [x] Stay overnight at ClinkNOORD
 
 ## 10/15, Amsterdam
 
-- [ ] [Anne Frank House](https://www.annefrank.org/en/)
+- [x] [Anne Frank House](https://www.annefrank.org/en/)
 	- 09:45 ~ 10:00
 	- 16 eur, 564 NTD 
 	- 前一週會再開放一次訂票
 - [ ] 阿姆斯特丹
 	- Winkel43 蘋果派
-	- Red Light District show
+	- ~~Red Light District show~~
 	- ~~Red Light Secrets 14.5 eur, 511 NTD~~ 
-	- Bulldog Coffee Shop, weed
-	- magic truffle
+	- ~~Bulldog Coffee Shop, weed~~
+	- ~~magic truffle~~
+	- The pantry
 - [ ] Stay overnight at ClinkNOORD
 
 ## 10/16, Amsterdam
 
-- [ ] 羊角村, Giethoorn
+- [ ] ~~羊角村, Giethoorn~~
 	- 買一日券, ==51 eur== ([Discoverholland.com](https://www.discoverholland.com/daytrip/129/giethoorn) 1800 NTD)
 	- [Klook](https://www.klook.com/zh-TW/activity/8628-giethoorn-one-day-tour-amsterdam/) 2732 NTD
 	- Train, Amsterdam Central --> Steenwijk
 	- 巴士, 在Dominee Hylkemawe 或 Hollands Venetie 站下車
+- [ ] 海牙
 - [ ] Stay overnight at ClinkNOORD
 
 ## 10/17, Amsterdam
@@ -145,6 +155,7 @@
 	- SNCB
 	- 16:11 ~ 19:10, 17:11 ~ 20:10
 	- ==27 eur== (Included in Benelux pass)
+- [ ] [eu visit](https://visiting.europarl.europa.eu/files/live/sites/visiting/files/Leaflets/Hemicycle%20Brussels%20Leaflet/EP-Hemicycle-Brussels-Leaflet-EN.pdf)
 - [ ] Stay overnight at CRL airport
 
 ## 10/22, Stockholm
